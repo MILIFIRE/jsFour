@@ -11,6 +11,7 @@
 -- part4
 --- you floder or file
 - tool 工具文件
+- disribution 任务分配文件夹
 - progress.md 进度文件 
 
 > part1 魏志强 杨帅腾   
