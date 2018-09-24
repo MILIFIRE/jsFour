@@ -9,11 +9,14 @@
         .slider {
             width: 1000px;
             height: 300px;
-            margin: 300px auto;
-            background-color: red;
+            margin: 25px auto;
+            background-color: white;
             position: relative;
             overflow: hidden;
         }
+        /* .slider2{ */
+
+        /* } */
 
         .slider-box {
             position: absolute;
@@ -25,6 +28,11 @@
             width: 1000px;
             height: 300px;
             float: left;
+        }
+        .fade{
+            /* float: none;
+            position: absolute;
+            opacity: 0; */
         }
         .slider-btn-left {
             width: 25px;
@@ -77,7 +85,7 @@
 </head>
 
 <body>
-    <div class="slider">
+    <div class="slider1 slider">
         <div class="slider-box">
             <div class="slider-content">
                 <img src="./img/banner1.jpg" alt="">
@@ -107,18 +115,103 @@
         <div class="slider-btn-left"></div>
         <div class="slider-btn-right"></div>
     </div>
+       <div class="slider2 slider">
+        <div class="slider-box">
+            <div class="slider-content">
+                <img src="./img/banner1.jpg" alt="">
+            </div>
+            <div class="slider-content">
+                <img src="./img/banner2.jpg" alt="">
+            </div>
+            <div class="slider-content">
+                <img src="./img/banner3.jpg" alt="">
+            </div>
+            <div class="slider-content">
+                <img src="./img/banner4.jpg" alt="">
+            </div>
+            <!-- <div class="slider-content">
+                <img src="./img/banner1.jpg" alt="">
+            </div> -->
+        </div>
+        <div class="slider-navigator">
+            <ul>
+                <li class="selected"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <!-- <li></li> -->
+            </ul>
+        </div>
+        <div class="slider-btn-left"></div>
+        <div class="slider-btn-right"></div>
+    </div>
+          <div class="slider3 slider">
+        <div class="slider-box">
+            <div class="slider-content fade">
+                <img src="./img/banner1.jpg" alt="">
+            </div>
+            <div class="slider-content fade">
+                <img src="./img/banner2.jpg" alt="">
+            </div>
+            <div class="slider-content fade">
+                <img src="./img/banner3.jpg" alt="">
+            </div>
+            <div class="slider-content fade">
+                <img src="./img/banner4.jpg" alt="">
+            </div>
+            <!-- <div class="slider-content">
+                <img src="./img/banner1.jpg" alt="">
+            </div> -->
+        </div>
+        <div class="slider-navigator">
+            <ul>
+                <li class="selected"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <!-- <li></li> -->
+            </ul>
+        </div>
+        <div class="slider-btn-left"></div>
+        <div class="slider-btn-right"></div>
+    </div>
 </body>
-<script src="index.js"></script>
+<script src="index.2.js"></script>
 <script>
-let slider1 =  new slider('.slider',{
-    box:'.slider-box',
-    content:'.slider-content',
-    navigator:'.slider-navigator',
-    navigatorDirection:'horizontal',
-    left:'.slider-btn-left',
-    right:'.slider-btn-right',
-    motion:'left',
-    btn:true,
+let slider1 =  new slider('.slider1',{
+    // box:'.slider-box',
+    // content:'.slider-content',
+    // navigator:'.slider-navigator',
+    // navigatorDirection:'horizontal',
+    // left:'.slider-btn-left',
+    // right:'.slider-btn-right',
+    // motion:'left',
+    // btn:true,
+    // auto:true,
+    // over:true,
+});
+let slider2 =  new slider('.slider2',{
+    // box:'.slider-box',
+    // content:'.slider-content',
+    // navigator:'.slider-navigator',
+    // navigatorDirection:'horizontal',
+    // left:'.slider-btn-left',
+    // right:'.slider-btn-right',
+    motion:'top',
+    // btn:true,
+    // auto:true,
+    // over:true,
+});
+let slider3 =  new slider('.slider3',{
+    // box:'.slider-box',
+    // content:'.slider-content',
+    // navigator:'.slider-navigator',
+    // navigatorDirection:'horizontal',
+    // left:'.slider-btn-left',
+    // right:'.slider-btn-right',
+    speed:'1',
+    motion:'opacity',
+    // btn:true,
     auto:true,
     over:true,
 });
