@@ -1,0 +1,54 @@
+{
+    "cateIdList": [
+        "12344"
+    ],
+    "provinceId": "1",
+    "rankId": "rank3001",
+    "testId": "",
+    "time": "1",
+    "utime": "2018-09-22 21:31:14",
+    "ctime": "2018-09-22 21:30:00",
+    "reqCid": "12344",
+    "reqCname": "影棚器材",
+    "resCid": "12344",
+    "resCname": "影棚器材",
+    "code": "0",
+    "products": [
+        {
+            "wareId": "25547982976",
+            "wareName": "金贝（JINBEI）DPEII600w专业闪光灯摄影灯摄影棚补光灯人像服装静物摄影三灯套装",
+            "imgPath": "jfs/t1/3035/23/3786/273968/5b9a3635Ef332ca61/4f3575d23c974be0.jpg",
+            "venderId": "758839"
+        },
+        {
+            "wareId": "29423926841",
+            "wareName": "神牛（Godox） dp600ii/sk400ii二代摄影灯套装闪光灯人像拍摄柔光灯专业摄 DP600ii*1+SK400ii*2（三灯套装） 佳能版",
+            "imgPath": "jfs/t20020/325/1247172111/313246/469d1442/5b27dc78N79317541.jpg",
+            "venderId": "185921"
+        },
+        {
+            "wareId": "11810619311",
+            "wareName": "ZOOM F4 六输入/八轨外景录音机！行货现货 品质远超R44 三码合一 多轨道录音机 行货F4送内胆包屏幕贴",
+            "imgPath": "jfs/t21322/127/546493524/186236/a188d643/5b10b4f6N71bd4276.jpg",
+            "venderId": "660532"
+        },
+        {
+            "wareId": "32119015822",
+            "wareName": "Blackmagic Pocket Cinema Camera 4K摄影机BMPCC 2代摄像机",
+            "imgPath": "jfs/t24409/292/2571443906/230748/cd336d27/5b84f66aNaad3880c.jpg",
+            "venderId": "680029"
+        },
+        {
+            "wareId": "4536182",
+            "wareName": "金贝反光板110cm五合一折叠挡光板摄影器材柔光板反光板",
+            "imgPath": "jfs/t4351/111/756747595/126758/a25c6ee2/58b8c74cNe2d3622d.jpg",
+            "venderId": "1000009561"
+        },
+        {
+            "wareId": "10222146950",
+            "wareName": "神牛（Godox） V860II-S/C/N二代机顶闪光灯外拍灯锂电池 热靴灯高速离机相机闪光灯 V860II-C佳能版+大礼包",
+            "imgPath": "jfs/t24484/211/2367163898/352958/16f2d1c3/5b7d362dNc29e3f32.jpg",
+            "venderId": "185921"
+        }
+    ]
+}
