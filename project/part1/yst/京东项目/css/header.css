@@ -47,6 +47,7 @@ html,body{
 #address-location{
     float: left;
     width: 258px;
+    margin-left: 10px;
 }
 #address-location-left{
     float: right;
@@ -57,11 +58,11 @@ html,body{
     font-size: 12px;
     line-height: 30px;
     color: #999;
-
     z-index: 5;
 }
 #address-location-left:hover #block{
     border-bottom: 2px solid #FFFFFF;
+    box-sizing: border-box;
 }
 #address-location-left:hover #address-location-left-city{
     display: block;
@@ -69,11 +70,11 @@ html,body{
 #address-location-left:hover #block{
     border-right: 1px solid #ccc;
     border-left: 1px solid #ccc;
-    box-sizing: border-box;
     background: #FFFFFF;
+    box-sizing: border-box;
 }
 #address-location-left #dingwei{
-    margin-right: 4px;
+    color: red;
 }
 #address-location-left-city{
     width: 320px;
@@ -152,6 +153,7 @@ padding-left: 30px;
 /*登录注册右边*/
 #navigate{
     float: right;
+    padding-right: 10px;
 }
 #navigate li{
     float: left;
@@ -202,7 +204,6 @@ float: right;
 #navigate #my-jd-info-top ul li{
     float: left;
 }
-
 #navigate #my-jd-info-bottom ul.left{
     float: left;
     height: 92px;
@@ -237,9 +238,6 @@ float: right;
 #my-jd:hover:hover #my-jd-info{
     display: block;
 }
-
-
-
 #navigate #purchase{
     position: relative;
 }
@@ -267,9 +265,8 @@ float: right;
     float: left;
 }
 #purchase #purchase-block{
-    width: 70px;
+    width: 80px;
     text-align: center;
-
 }
 #purchase:hover #purchase-none{
     display: block;
@@ -357,7 +354,7 @@ border-bottom: 1px solid #FFFFFF;
     height: 180px;
     background: #FFFFFF;
     position: absolute;
-    right:-73px;
+    right:-83px;
     top:31px;
     border: 1px solid #ddd;
     display: none;
@@ -432,30 +429,171 @@ border-bottom: 1px solid #FFFFFF;
     width: 89px;
     border-top: 1px solid #FFF;
     position: absolute;
-    right: 72px;
+    right: 83px;
     top: -1px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #navigate .pad{
     padding: 0 10px 0 10px;
 }
 #navigate .mar{
     margin-right: 6px;
 }
-/*搜索框*/
+#navigate .phone-jd{
+    position: relative;
+}
+#navigate .phone-jd-block-code{
+    width: 68px;
+    height: 68px;
+    border: 1px solid #ddd;
+    position: absolute;
+    left: -10px;
+    top: 30px;
+    background: url("https://misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/mobile_qrcode.png") no-repeat center;
+}
+#sanjiao{
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    position: absolute;;
+    left: 27px;
+    top: -12px;
+    border-bottom: 6px solid #f0f3ef;
+}
+#navigate .phone-jd .phone-jd-none{
+    width: 195px;
+    height: 305px;
+    background: #FFF;
+    z-index: 2;
+    position: absolute;
+    top: 31px;
+    right: -12px;
+    border: 1px solid #cfcfcf;
+    display: none;
+}
+#navigate .phone-jd:hover .phone-jd-none{
+    display: block;
+}
+#navigate .phone-jd .phone-jd-none .top,.center,.bottom{
+    height: 29%;
+    border-bottom: 1px solid #cfcfcf ;
+    box-sizing: border-box;
+}
+#navigate .phone-jd .phone-jd-none .top img.Img{
+    width: 70px;
+    height: 70px;
+   border: 1px solid #cfcfcf;
+    padding: 2px;
+    text-align: center;
+    margin: 0 3px 0 5px;
+    float: left;
+}
+#navigate .phone-jd .phone-jd-none .top a h6{
+    color: #666;
+    font-size: 13px;
+    line-height: 13px;
+    margin-top:14px ;
+}
+#navigate .phone-jd .phone-jd-none .top p{
+    color: #F10214;
+}
+#navigate .phone-jd .phone-jd-none .top a i{
+    background: url("https://misc.360buyimg.com/mtd/pc/index/home/images/sprite_mobile@1x.png") no-repeat center;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    margin-left: 3px;
+    background-position:0 0;
+}
+#navigate .phone-jd .phone-jd-none .top a b{
+    background: url("https://misc.360buyimg.com/mtd/pc/index/home/images/sprite_mobile@1x.png") no-repeat center;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    margin-left: 3px;
+}
+#navigate .phone-jd .phone-jd-none .top a em{
+    background: url("https://misc.360buyimg.com/mtd/pc/index/home/images/sprite_mobile@1x.png") no-repeat center;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    background-position:0 -52px
+}
+#navigate .phone-jd .phone-jd-none .center img.Img{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #cfcfcf;
+    padding: 2px;
+    text-align: center;
+    margin: 0 3px 0 5px;
+    float: left;
+}
+#navigate .phone-jd .phone-jd-none .center h6{
+    color: #666;
+    font-size: 13px;
+    line-height: 13px;
+    margin-top:14px ;
+    margin-bottom: 8px;
+}
+#navigate .phone-jd .phone-jd-none .center p{
+    color: #F10214;
+    line-height: 13px;
+}
+#navigate .phone-jd .phone-jd-none .bottom img.Img{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #cfcfcf;
+    padding: 2px;
+    text-align: center;
+    margin: 0 3px 0 5px;
+    float: left;
+}
+#navigate .phone-jd .phone-jd-none .bottom a h6{
+    color: #666;
+    font-size: 13px;
+    line-height: 13px;
+    margin-top:14px ;
+}
+#navigate .phone-jd .phone-jd-none .bottom p{
+    color: #F10214;
+}
+#navigate .phone-jd .phone-jd-none .bottom a i{
+    background: url("https://misc.360buyimg.com/mtd/pc/index/home/images/sprite_mobile@1x.png") no-repeat center;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    margin-left: 3px;
+    background-position:0 0;
+}
+#navigate .phone-jd .phone-jd-none .bottom a b{
+    background: url("https://misc.360buyimg.com/mtd/pc/index/home/images/sprite_mobile@1x.png") no-repeat center;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    margin-left: 3px;
+}
+#navigate .phone-jd .phone-jd-none .bottom a em{
+    background: url("https://misc.360buyimg.com/mtd/pc/index/home/images/sprite_mobile@1x.png") no-repeat center;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    background-position:0 -52px
+}
+#navigate .phone-jd .none-sanjiao{
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    position: absolute;;
+    left: 154px;
+    top: -12px;
+    border-bottom: 6px solid #FFF;
+}
+    /*搜索框*/
 #search{
     margin-top: 25px;
 }
@@ -467,7 +605,19 @@ border-bottom: 1px solid #FFFFFF;
     box-sizing: border-box;
     position: relative;
 }
-#search-camera .left{
+#search-camera form{
+    float: left;
+}
+#search-camera form input::-webkit-input-placeholder {
+            color: #2d2d2d;
+                     font-size: 14px;
+                     text-align: left;
+    padding-left: 10px;
+         }
+#search-camera form input:focus::placeholder{
+    color: #cfcfcf;
+}
+#search-camera input{
     width: 500px;
     height: 35px;
     border: 1px solid transparent;
@@ -483,11 +633,15 @@ border-bottom: 1px solid #FFFFFF;
 display: block;
     background: url("https://misc.360buyimg.com/product/search/1.0.4/css/i/sprite-photo-search.png") no-repeat;
 }
-#search-camera .right{
+#search-camera a.right-fangdajing{
+    float: left;
     width: 50px;
     height: 35px;
     background-color: red;
-border: none;
+    text-align: center;
+    line-height: 35px;
+    color: #FFFFFF;
+    font-size: 15px;
 }
 #shop-car{
     width: 190px;
@@ -498,6 +652,10 @@ border: none;
     float: right;
     margin-right: 99px;
     font-size: 14px;
+    position: relative;
+}
+#shop-car-top{
+    text-align: center;
 }
 #shop-car .car{
     width: 16px;
@@ -507,11 +665,56 @@ border: none;
 #shop-car .oo{
     width: 14px;
     height: 14px;
+    background: red;
+    color: #FFFFFF;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    line-height: 14px;
+    border-radius: 50%;
 }
 #shop-car a{
     color: red;
     text-align: center;
     line-height: 35px;
+}
+#shop-car #shop-car-bottom{
+    background: #FFF;
+    width: 310px;
+    height: 70px;
+    position: absolute;
+    border: 1px solid #ddd;
+    right: -1px;
+    top: 33px;
+    z-index: 2;
+    display: none;
+}
+#shop-car #shop-car-bottom b{
+    width: 188px;
+    height: 1px;
+    border-bottom: 1px solid #FFF;
+    position: absolute;
+    right: 0;
+    top: -2px;
+}
+#shop-car:hover #shop-car-bottom{
+    display: block;
+}
+#shop-car #shop-car-bottom i{
+    background: url("https://img11.360buyimg.com/uba/jfs/t3571/299/131233948/1117/a1196554/58004d6dN2927f0f7.png") no-repeat center;
+    width: 56px;
+    height: 49px;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+#shop-car #shop-car-bottom p{
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    line-height: 70px;
+    margin-left: 10px;
 }
 #search ul{
     margin-left: 320px;
@@ -519,7 +722,6 @@ border: none;
 #search ul li{
     float: left;
     margin-right: 10px;
-
 }
 #search ul li a{
     font-size: 12px;
@@ -585,11 +787,12 @@ border: none;
     width: 190px;
     height: 470px;
     margin-right: 10px;
+    z-index: 10;
 }
 
 /*轮播图*/
 #lunbotu{
-   padding-top: 10px;
+    padding-top: 10px;
     position: relative;
 }
 #lunbotu #outer{
@@ -599,6 +802,7 @@ border: none;
     margin-right: 10px;
     overflow: hidden;
     position: relative;
+
 }
 #lunbotu #outer .swiper{
     width: 4720px;
@@ -845,20 +1049,7 @@ box-sizing: border-box;
     text-align: center;
 }
 
-/*#second-kill #kill-time a .time-t-a-s span{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background: #2f3430;
-    font-size: 20px;
-    color: #FFFFFF;
-    text-align: center;
-    line-height: 40px;
-    position: relative;
-    margin-right: 5px;
-    font-weight: bold;
-}*/
-#second-kill #kill-time a .time-t-a-s del{
+#second-kill #kill-time a .time-t-a-s span{
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -871,6 +1062,7 @@ box-sizing: border-box;
     margin-right: 5px;
     font-weight: bold;
 }
+
 
 #second-kill #kill-time a .time-t-a-s{
     margin-left: 30px;
