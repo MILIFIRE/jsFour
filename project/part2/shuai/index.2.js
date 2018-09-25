@@ -38,10 +38,12 @@ class slider {
         this.contentLength = this.box.children.length;
         this.step = 0;
         this.flag = true;
+        this.cssBack = true;
         this.direction = 0;
         this.init();
     }
     init() {
+        clearInterval(this.auto);
         //设置左右上下滚动初始化
         if (this.motion == 'left' || this.motion == 'top') {
             //设置最大步数
@@ -61,10 +63,11 @@ class slider {
             this.step = 1;
             //设置CSS3动画
             this.box.style.transitionProperty = this.motion;
-            this.box.style.transitionDuration = `${this.speed}s`;
+            // this.box.style.transitionDuration = `${this.speed}s`;
             this.box.style.transitionTimingFunction = this.animat;
             //设置css3 动画完成 回调函数
             this.box.addEventListener("transitionend", () => {
+                console.log('this.step:', this.step)
                 if (this.step >= this.maxStep) {
                     this.box.style.transitionDuration = '0s';
                     this.step = 1;
@@ -77,6 +80,7 @@ class slider {
                     this.box.style[this.motion] = `${-1 * this.step * this.content[this.motion == 'left' ? 'offsetWidth' : 'offsetHeight']}px`;
                 }
                 this.flag = true;
+                this.cssBack=true;
             }, false);
             // 开始设置渐隐渐显初始化
         } else if (this.motion == 'opacity') {
@@ -125,9 +129,23 @@ class slider {
             })
             this.focuse();
         } else {
-            this.box.style.transitionDuration = `${this.speed}s`
-            this.box.style[this.motion] = -1 * this.content[this.motion == 'left' ? 'offsetWidth' : 'offsetHeight'] * this.step + 'px';
+            console.log('css_back:',this.cssBack)
+            console.log('move_step:', this.step)
+            if (this.cssBack==false) {
+                this.box.style.transitionDuration = `0.001s`;    
+                if (this.step >= this.maxStep) {
+                    this.step = 1;
+                }
+                if (this.step <= this.minStep) {
+                    this.step = this.contentLength;
+                }
+                this.box.style[this.motion] = `${-1 * this.step * this.content[this.motion == 'left' ? 'offsetWidth' : 'offsetHeight']}px`;
+            } else {
+                this.box.style.transitionDuration = `${this.speed}s`;
+                this.box.style[this.motion] = -1 * this.content[this.motion == 'left' ? 'offsetWidth' : 'offsetHeight'] * this.step + 'px';
+            }
             this.focuse();
+            this.cssBack=false;
         }
     }
     button(e) {
