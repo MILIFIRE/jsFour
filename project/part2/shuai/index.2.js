@@ -65,13 +65,13 @@ class slider {
             this.box.style.transitionTimingFunction = this.animat;
             //设置css3 动画完成 回调函数
             this.box.addEventListener("transitionend", () => {
-                if (this.step == this.maxStep) {
+                if (this.step >= this.maxStep) {
                     this.box.style.transitionDuration = '0s';
                     this.step = 1;
                     this.box.style[this.motion] = `${-1 * this.step * this.content[this.motion == 'left' ? 'offsetWidth' : 'offsetHeight']}px`;
                     // this.focuse();
                 }
-                if (this.step == this.minStep) {
+                if (this.step <= this.minStep) {
                     this.box.style.transitionDuration = '0s';
                     this.step = this.contentLength;
                     this.box.style[this.motion] = `${-1 * this.step * this.content[this.motion == 'left' ? 'offsetWidth' : 'offsetHeight']}px`;
