@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！</title>
-    <link rel="shortcut icon" href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537800640931&di=e16d24225a08558bdb1ba6cfe62a6a51&imgtype=0&src=http%3A%2F%2Fwww.kaitao.cn%2Fdata%2Fupload%2Fueditor%2F20170829%2F59a4d994565e7.jpg">
+    <link rel="shortcut icon" href="//www.jd.com/favicon.ico">
     <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="../swiper/swiper-3.4.2.min.css">
     <link rel="stylesheet" href="../ClintonCss/sideNav.css">
     <link rel="stylesheet" href="header.css" type="text/css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_850460_3yj8cicjy5m.css">
     <script>
         less = {
             env:'development', // 开发环境
@@ -22,7 +24,7 @@
 <!--最顶部广告-->
 <div id="top-ad">
     <div class="main"><a href="" id="close-top-ad"></a>
-        <b id="cha">X</b>
+        <b id="cha" class="iconfont icon-cha"></b>
     </div>
 </div>
 <!--登录注册-->
@@ -31,7 +33,7 @@
 <div id="address-location" class="clearfix">
         <div id="address-location-left">
             <div id="block">
-        <b id="dingwei">城市:</b><span id="city">北京</span>
+        <b id="dingwei" class="iconfont icon-weizhi-copy"></b><span id="city">北京</span>
             </div>
         <div id="address-location-left-city">
             <div id="address-location-left-city-china" class="clearfix">
@@ -104,7 +106,7 @@
             <li id="my-jd">
                 <div id="my-jd-block">
                     <a href="##">我的京东</a>
-                    <i>﹀</i>
+                    <i class="iconfont icon-xiajiantou"></i>
                 </div>
                 <div id="my-jd-info">
                     <div id="my-jd-info-top" class="clearfix">
@@ -137,7 +139,7 @@
             <li id="purchase">
                 <div id="purchase-block">
                 <a href="##">企业采购</a>
-                <i>﹀</i>
+                    <i class="iconfont icon-xiajiantou"></i>
                 </div>
                 <div id="purchase-none" class="clearfix">
                         <ul class="clearfix">
@@ -153,7 +155,7 @@
             <li class="pad">|</li>
             <li id="service">
                 <div id="service-block">
-                客户服务<i>﹀</i>
+                客户服务 <i class="iconfont icon-xiajiantou"></i>
                 </div>
                 <div id="service-none">
                     <div id="service-none-top" class="clearfix">
@@ -189,7 +191,7 @@
             <li class="pad">|</li>
             <li id="linkNav" class="clearfix">
                 <div id="link-nav">
-                网站导航<i>﹀</i>
+                网站导航 <i class="iconfont icon-xiajiantou"></i>
                 </div>
                 <div id="link-nav-info">
                     <div id="link-nav-info-theme" class="clearfix">
@@ -334,13 +336,14 @@
 <div id="search" class="main">
     <div id="search-camera" class="clearfix">
         <form action="" class="clearfix">
-            <input type="text" placeholder="无线路由器">
+            <input type="text" placeholder="无线路由器" autocomplete="on">
             <a href="##"><i class="photo"></i></a>
         </form>
         <a href="##" class="right-fangdajing"><div>搜 索</div></a>
     </div>
     <div id="shop-car">
         <div id="shop-car-top">
+            <b class="car iconfont icon-gouwuche"></b>
             <a href="##">我的购物车</a>
             <span class="oo">0</span>
         </div>
@@ -384,7 +387,15 @@
         <li><a href="##">京东金融</a></li>
     </ul>
     <a href="##" class="bgimg"></a>
-    <a href="##" class="logoimg"></a>
+    <div href="##" class="logoimg">
+        <div class="shang"><a href="##"></a></div>
+        <div class="xia">
+            <a href="##">
+                <h5>魅力搭配推荐</h5>
+                <span>去看看></span>
+            </a>
+        </div>
+    </div>
 </div>
 <!--轮播图部分-->
 <div id="lunbotu" class="main clearfix">
@@ -3771,30 +3782,40 @@
         </div>
     </div>
     <!--轮播图-->
-<div id="outer" class="clearfix">
-    <div class="swiper clearfix">
-            <a href="##"><img src="../img/move1.jpg" alt=""></a>
-           <a href="##"><img src="../img/move2.jpg" alt=""></a>
-            <a href="##"><img src="../img/move3.jpg" alt=""></a>
-           <a href="##"><img src="../img/move4.jpg" alt=""></a>
-            <a href="##">  <img src="../img/move5.jpg" alt=""></a>
-           <a href="##">  <img src="../img/move6.jpg" alt=""></a>
-           <a href="##"> <img src="../img/move7.jpg" alt=""></a>
-           <a href="##"> <img src="../img/move8.jpg" alt=""></a>
+    <div class="swiper-container" id="swiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="##"><img src="../img/move1.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+                <a href="##"><img src="../img/move2.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+                <a href="##"><img src="../img/move3.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+                <a href="##"><img src="../img/move4.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+                <a href="##"><img src="../img/move5.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+                <a href="##"><img src="../img/move6.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+                <a href="##"><img src="../img/move7.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide">
+                <a href="##"><img src="../img/move8.jpg" alt=""></a>
+            </div>
+            
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev left"></div>
+        <div class="swiper-button-next right"></div>
     </div>
-    <ul class="focus clearfix">
-        <li class="selected"></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <a href="##" class="left"></a>
-    <a href="##" class="right"></a>
-</div>
     <!--广告-->
     <div id="advertisement">
         <a href="##"><img src="../img/adves1.jpg" alt=""></a>
@@ -3814,7 +3835,7 @@
             </div>
         </div>
         <div id="center">
-            <ul class="nav">
+            <ul class="nav clearfix">
                 <li class="over">促销</li>
                 <li>公告</li>
             </ul>
@@ -3829,8 +3850,8 @@
             <div><ul>
                 <li><a href="##">中秋赏月 天月圆 地月缺</a></li>
                 <li><a href="##">游子思乡 他乡苦 本乡甜</a></li>
-                <li><a href="##">花间一壶酒，独酌无相亲。</a></li>
-                <li><a href="##">举杯邀明月，对影成三人。</a></li>
+                <li><a href="##">花间一壶酒，独酌无相亲</a></li>
+                <li><a href="##">举杯邀明月，对影成三人</a></li>
             </ul></div>
             <span><a href="##">更多</a></span>
         </div>
@@ -3845,20 +3866,21 @@
             <h3>京东秒杀</h3>
             <p class="deals">FLASH DEALS</p>
             <i class="lightning"></i>
-            <p class="remaining-time">本场距离还剩</p>
+            <p class="remaining-time">比现在更帅倒计时</p>
             <div class="time-t-a-s">
-            <span class="time"><i class="left"></i>10</span>
-            <span class="assign"><i class="center"></i>10</span>
-            <span class="sec"><i class="right"></i>10</span>
+            <span class="time"></span>
+            <span class="assign"> </span>
+            <span class="sec"> </span>
             </div>
         </a>
     </div>
     <!--秒杀部分中-->
-    <div id="kill-center">
-        <div id="content">
-            <ul class="clearfix">
-                <li>
-                    <a href="##">
+    <div id="kill-center" class="clearfix">
+        <div class="swiper-container clearfix" id="swiper3">
+            <div class="swiper-wrapper clearfix">
+                <div class="swiper-slide clearfix">
+                    <div class="wdt clearfix">
+                   <a href="##" class="nobo">
                         <img src="../img/1.PNG" alt="">
                         <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
                         <div class="price clearfix">
@@ -3866,218 +3888,250 @@
                             <span class="right">￥<del>9999.00</del></span>
                         </div>
                     </a>
-                </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
+                    <a href="##" class="nobo">
+                        <img src="../img/2.PNG" alt="">
                         <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
                         <div class="price clearfix">
                             <span class="left">￥9999.00</span>
                             <span class="right">￥<del>9999.00</del></span>
                         </div>
                     </a>
-                </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
+                    <a href="##" class="nobo">
+                        <img src="../img/3.PNG" alt="">
                         <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
                         <div class="price clearfix">
                             <span class="left">￥9999.00</span>
                             <span class="right">￥<del>9999.00</del></span>
                         </div>
                     </a>
-                </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
+                    <a href="##" class="nobo">
+                        <img src="../img/4.PNG" alt="">
+                        <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
+                        <div class="price clearfix">
+                            <span class="left">￥9999.00</span>
+                            <span class="right">￥<del>9999.00</del></span>
+                        </div>
+                    </a></div>
+                </div>
+                <div class="swiper-slide clearfix">
+                    <div class="wdt">
+                    <a href="##" class="nobo">
+                        <img src="../img/5.PNG" alt="">
                         <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
                         <div class="price clearfix">
                             <span class="left">￥9999.00</span>
                             <span class="right">￥<del>9999.00</del></span>
                         </div>
                     </a>
-                </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
+                    <a href="##" class="nobo">
+                        <img src="../img/6.PNG" alt="">
                         <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
                         <div class="price clearfix">
                             <span class="left">￥9999.00</span>
                             <span class="right">￥<del>9999.00</del></span>
                         </div>
                     </a>
-                </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
+                    <a href="##" class="nobo">
+                        <img src="../img/7.PNG" alt="">
                         <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
                         <div class="price clearfix">
                             <span class="left">￥9999.00</span>
                             <span class="right">￥<del>9999.00</del></span>
                         </div>
                     </a>
-                </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
+                    <a href="##" class="nobo">
+                    <img src="../img/8.PNG" alt="">
+                    <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
+                    <div class="price clearfix">
+                        <span class="left">￥9999.00</span>
+                        <span class="right">￥<del>9999.00</del></span>
+                    </div>
+                </a></div>
+                </div>
+              <div class="swiper-slide clearfix">
+                  <div class="wdt">
+                    <a href="##" class="nobo">
+                        <img src="../img/9.PNG" alt="">
                         <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
                         <div class="price clearfix">
                             <span class="left">￥9999.00</span>
                             <span class="right">￥<del>9999.00</del></span>
                         </div>
                     </a>
-                </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
+                    <a href="##" class="nobo">
+                        <img src="../img/10.PNG" alt="">
                         <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
                         <div class="price clearfix">
                             <span class="left">￥9999.00</span>
                             <span class="right">￥<del>9999.00</del></span>
                         </div>
                     </a>
-                </li>
-                <li>
-                <a href="##">
-                    <img src="../img/1.PNG" alt="">
+                    <a href="##" class="nobo">
+                        <img src="../img/11.PNG" alt="">
+                        <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
+                        <div class="price clearfix">
+                            <span class="left">￥9999.00</span>
+                            <span class="right">￥<del>9999.00</del></span>
+                        </div>
+                    </a>
+                    <a href="##" class="nobo">
+                    <img src="../img/12.PNG" alt="">
+                    <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
+                    <div class="price clearfix">
+                        <span class="left">￥9999.00</span>
+                        <span class="right">￥<del>9999.00</del></span>
+                    </div>
+                </a></div></div>
+                <div class="swiper-slide clearfix">
+                    <div class="wdt">
+                    <a href="##" class="nobo">
+                        <img src="../img/13.PNG" alt="">
+                        <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
+                        <div class="price clearfix">
+                            <span class="left">￥9999.00</span>
+                            <span class="right">￥<del>9999.00</del></span>
+                        </div>
+                    </a>
+                    <a href="##" class="nobo">
+                        <img src="../img/14.PNG" alt="">
+                        <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
+                        <div class="price clearfix">
+                            <span class="left">￥9999.00</span>
+                            <span class="right">￥<del>9999.00</del></span>
+                        </div>
+                    </a>
+                    <a href="##" class="nobo">
+                        <img src="../img/15.PNG" alt="">
+                        <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
+                        <div class="price clearfix">
+                            <span class="left">￥9999.00</span>
+                            <span class="right">￥<del>9999.00</del></span>
+                        </div>
+                    </a>
+                    <a href="##" class="nobo">
+                    <img src="../img/16.PNG" alt="">
                     <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
                     <div class="price clearfix">
                         <span class="left">￥9999.00</span>
                         <span class="right">￥<del>9999.00</del></span>
                     </div>
                 </a>
-            </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
+                    </div></div>
+                <div class="swiper-slide clearfix">
+                    <div class="wdt">
+                    <a href="##" class="nobo">
+                        <img src="../img/17.PNG" alt="">
                         <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
                         <div class="price clearfix">
                             <span class="left">￥9999.00</span>
                             <span class="right">￥<del>9999.00</del></span>
                         </div>
                     </a>
-                </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
+                    <a href="##" class="nobo">
+                        <img src="../img/18.PNG" alt="">
                         <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
                         <div class="price clearfix">
                             <span class="left">￥9999.00</span>
                             <span class="right">￥<del>9999.00</del></span>
                         </div>
                     </a>
-                </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
+                    <a href="##" class="nobo">
+                        <img src="../img/19.PNG" alt="">
                         <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
                         <div class="price clearfix">
                             <span class="left">￥9999.00</span>
                             <span class="right">￥<del>9999.00</del></span>
                         </div>
                     </a>
-                </li>
-                <li>
-                <a href="##">
-                    <img src="../img/1.PNG" alt="">
-                    <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
-                    <div class="price clearfix">
-                        <span class="left">￥9999.00</span>
-                        <span class="right">￥<del>9999.00</del></span>
-                    </div>
-                </a>
-            </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
+                    <a href="##" class="nobo">
+                        <img src="../img/20.PNG" alt="">
                         <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
                         <div class="price clearfix">
                             <span class="left">￥9999.00</span>
                             <span class="right">￥<del>9999.00</del></span>
                         </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
-                        <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
-                        <div class="price clearfix">
-                            <span class="left">￥9999.00</span>
-                            <span class="right">￥<del>9999.00</del></span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
-                        <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
-                        <div class="price clearfix">
-                            <span class="left">￥9999.00</span>
-                            <span class="right">￥<del>9999.00</del></span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                <a href="##">
-                    <img src="../img/1.PNG" alt="">
-                    <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
-                    <div class="price clearfix">
-                        <span class="left">￥9999.00</span>
-                        <span class="right">￥<del>9999.00</del></span>
-                    </div>
-                </a>
-            </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
-                        <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
-                        <div class="price clearfix">
-                            <span class="left">￥9999.00</span>
-                            <span class="right">￥<del>9999.00</del></span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
-                        <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
-                        <div class="price clearfix">
-                            <span class="left">￥9999.00</span>
-                            <span class="right">￥<del>9999.00</del></span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="##">
-                        <img src="../img/1.PNG" alt="">
-                        <p>在中国首个农民丰收节到来之际，国务院新闻办举行中外记者见面会。</p>
-                        <div class="price clearfix">
-                            <span class="left">￥9999.00</span>
-                            <span class="right">￥<del>9999.00</del></span>
-                        </div>
-                    </a>
-                </li>
-            </ul>
+                    </a></div></div>
+            </div>
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev leftt"></div>
+            <div class="swiper-button-next rightt"></div>
         </div>
     </div>
     <!--秒杀部分右-->
     <div id="kill-end" class="clearfix">
-        <div id="moveImg" class="clearfix">
-            <div class="move-left">
-                <a href="##"><img src="../img/killlunbo.png" alt=""></a>
+        <div class="swiper-container" id="swiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="##"><img src="../img/killlunbo.png" alt=""></a></div>
+                <div class="swiper-slide"><a href="##"><img src="../img/killlunbo1.png" alt=""></a></div>
             </div>
-            <div class="move-right">
-                <a href="##"><img src="../img/killlunbo1.png" alt=""></a>
-            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
         </div>
-        <ul class="clearfix">
-            <li></li>
-            <li></li>
-        </ul>
     </div>
 </div>
 </body>
 <script src="../ClintonJs/sideNav.js"></script>
 <script src="../js/搜索框部分.js"></script>
 <script src="../js/地址定位.js"></script>
+<script src="../swiper/swiper-3.4.2.min.js"></script>
+<!--所有轮播图-->
+<script>
+    //大轮播图
+    var mySwiper = new Swiper ('#swiper1', {
+        autoplay: 2000,
+        speed:1000,
+        direction: 'horizontal',
+        loop: true,
+        // 如果需要分页器
+        pagination: '.swiper-pagination',
+
+        // 如果需要前进后退按钮
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        effect : 'fade',
+        fade: {
+            crossFade: true,
+        },
+        pagination : '.swiper-pagination',
+        paginationClickable :true,
+        simulateTouch : false,
+    });
+    var swiper1 = document.getElementById('swiper1');
+    swiper1.onmouseenter = function () {
+        mySwiper.stopAutoplay();
+    };
+    swiper1.onmouseleave = function () {
+        mySwiper.startAutoplay();
+    }
+    //秒杀右轮播图
+    var mySwiper2 = new Swiper ('#swiper2', {
+        direction: 'horizontal',
+        loop: true,
+        // 如果需要分页器
+        pagination: '.swiper-pagination',
+        autoplay: 2000,
+        speed:1000,
+        paginationClickable :true,
+        autoplayDisableOnInteraction:false,
+        simulateTouch : false,
+    })
+//秒杀中轮播图
+    var mySwiper3 = new Swiper ('#swiper3', {
+        direction: 'horizontal',
+        loop: true,
+        // 如果需要前进后退按钮
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        simulateTouch : false,
+        speed:1000,
+    })
+
+</script>
+<script src="../js/秒杀倒计时.js"></script>
+<script src="../js/fengzhuang.js"></script>
+<script>fengzhuang.init()</script>
+<script src="../js/logoDog.js"></script>
+<script src="../js/轮播图中.js"></script>
+
+
 </html>
