@@ -1,0 +1,116 @@
+[
+  {
+    "name": "",
+    "description": "",
+    "url": "http://www.baidu.com",
+    "imgList":[
+        {
+        "imgUri":"../imgs/bestForHome/1.jpg",
+        "imgHref":"http://www.baidu.com"
+        }
+    ]
+  },
+  {
+    "name": "家电馆",
+    "description": "家电好物节",
+    "imgList":[
+      {
+        "imgUri":"../imgs/bestForHome/2.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/bestForHome/3.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/bestForHome/4.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "我爱我家",
+    "description": "品质生活家",
+    "imgList":[
+      {
+        "imgUri":"../imgs/bestForHome/5.png",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/bestForHome/6.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/bestForHome/7.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "芝华仕旗舰店",
+    "description": "",
+    "imgList":[
+      {
+        "imgUri":"../imgs/bestForHome/8.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/bestForHome/9.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/bestForHome/10.png",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/bestForHome/11.png",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/bestForHome/12.png",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "装修达人",
+    "description": "装修不求人",
+    "imgList":[
+      {
+        "imgUri":"../imgs/bestForHome/13.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/bestForHome/14.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },{
+  "name": "家用医疗",
+  "description": "医药保健",
+  "imgList":[
+    {
+      "imgUri":"../imgs/bestForHome/15.jpg",
+      "imgHref":"http://www.baidu.com"
+    },
+    {
+      "imgUri":"../imgs/bestForHome/16.jpg",
+      "imgHref":"http://www.baidu.com"
+    }
+  ]
+},{
+  "name": "",
+  "description": "",
+  "imgList":[
+    {
+      "imgUri":"../imgs/bestForHome/17.jpg",
+      "imgHref":"http://www.baidu.com"
+    },
+    {
+      "imgUri":"../imgs/bestForHome/18.jpg",
+      "imgHref":"http://www.baidu.com"
+    }
+  ]
+}
+]
+

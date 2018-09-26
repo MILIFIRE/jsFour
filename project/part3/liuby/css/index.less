@@ -1,0 +1,160 @@
+@import (reference) "public.less";
+@import "common.less";
+body {
+  background: @bodyColor;
+  color: @color
+}
+
+.floor_title {
+  position: relative;
+  width: 150px;
+  font-size: 28px;
+  color: #222;
+  text-align: center;
+  margin: 34px auto;
+  padding: 0 50px;
+  overflow: hidden;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  &:before {
+    left: 0px;
+  }
+  &:after {
+    right: 0px;
+  }
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    display: block;
+    background: #222;
+    top: 19px;
+  }
+}
+
+.floor {
+  .box {
+    height: 450px;
+    overflow: hidden;
+    .box-title {
+      float: left;
+      font-size: 22px;
+      color: #222;
+      padding-bottom: 10px;
+    }
+    .box_arrow {
+      float: left;
+      background-position: 0px 0px;
+      float: left;
+      width: 23px;
+      height: 23px;
+      margin:6px auto auto 5px;
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAAklEQVR4AewaftIAAAHiSURBVJXBvUuUcQAA4MefclJIGmWDUGr9CU72ZZwEgjYoHIH2MbUUIQTpFHdj2hBK/QFSQtCpSEc1lCIF1trUIhaGgwhd4hAHaoIHYr73nj5PxVJLixICkuhBK5pQhzx+YB6TmMGmCFWidWEIBbzEGJawipM4jQt4ggQGkfOfKnslMIqreIgpbNlrGcv4iqfoxgiu4T4KioJdCUyjCS2YxJZ4W5hECxoxjYSiYNczFNCJvL1qxcujEwU8VxTs6MQV9GHDfq+QFm8DfbiMLtsCAobQj3XRbiOFtHjr6McwQkASBbxT2gqSSCEt3nv8RXtAD8aVt4IkUkiLN47ugPP47GBWkEQKaaXNoTWgEUsObgVJpJAWbQHNAXVYdThbdlSI9hu1AXmccHD1mEUWGdGO40/AT5xxMPWYRRYZpZ3FYsA8LiqvHrPIIiNeG74ETKBXvFOYRRYZ5fViKmAGR9ChtDFkkVFeB47iQ8AmBjCKGtGuI6O8GoxgEJvBjhzmMI5K+60prxLj+IQ3tgW77iGBHGodTi1yqMZdRZUPGhoUbeA1LuExfuG7eBXowQS+4QYKiqrsVcAddGEYj/ACc1hAHnU4hzbcRDX6kfOfKtFyeIt29OAWmnEMa1jEPAbwEZsi/APwnHjX1+uAaQAAAABJRU5ErkJggg==)
+    }
+    .box_dot{
+      float:left;color:#222;font-size:22px;line-height:22px;padding-left:5px;
+    }
+    .box-subtitle {
+      float: left;
+      font-size: 14px;
+      margin: 7px 0 0 10px;
+    }
+    .shop-logo{
+      position: absolute;
+      left:0;
+      width:130px;
+      border:1px solid #ccc;
+    }
+    .shop-logo img{
+      width:100%;
+    }
+    .shop-name{
+      margin-left:140px;
+      font-size:18px;
+      height:45px;
+      line-height:45px;
+    }
+  }
+  .half-box{
+    height:220px;
+    overflow: hidden;
+  }
+  ul.phoneList{
+    border: solid #ebeaea;
+    border-width: 0 1px 1px 0;
+    width:100%;
+    li{
+      float:left;
+      border: solid #ebeaea;
+      border-width: 1px 0 0 1px;
+      width:25%;
+    }
+  }
+  .act-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    a {
+      position: relative;
+      z-index: 1;
+      width: 340px;
+      /*height: 420px;*/
+      img {
+        width:100%;
+        /*height: 100%;*/
+      }
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 340px;
+      height: 420px;
+      border: 5px solid #222;
+      top: 20px;
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+    }
+    /*&:after {
+      content: '';
+      z-index: 0;
+      display: block;
+      position: absolute;
+      width: 340px;
+      height: 420px;
+      left: 30px;
+      top: 0;
+      background: #f0f3ef;
+    }*/
+  }
+  .act-first {
+    .act-inner {
+      a {
+        float: left;
+        margin-left: 30px;
+      }
+      &:before {
+        left: 0px;
+        right: auto;
+      }
+    }
+  }
+  .act-last {
+    .act-inner {
+      a {
+        float: right;
+        margin-right: 30px;
+      }
+      &:before {
+        left: auto;
+        right: 0px;
+      }
+    }
+  }
+}
+
+
+

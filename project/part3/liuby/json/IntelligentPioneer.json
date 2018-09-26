@@ -1,0 +1,142 @@
+[
+  {
+    "name": "手机频道",
+    "description": "一个极客的诞生",
+    "url": "http://www.baidu.com",
+    "imgList":[
+        {
+        "imgUri":"../imgs/IntelligentPioneer/1.jpg",
+        "imgHref":"http://www.baidu.com"
+        },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/2.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/3.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/4.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/5.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/6.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/7.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/8.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/9.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/10.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/11.png",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/12.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/13.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/14.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "新品首发",
+    "description": "看新奇好物 必来新品首发",
+    "imgList":[
+      {
+        "imgUri":"../imgs/IntelligentPioneer/15.png",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "",
+    "description": "",
+    "imgList":[
+      {
+        "imgUri":"../imgs/IntelligentPioneer/16.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "",
+    "description": "",
+    "imgList":[
+      {
+        "imgUri":"../imgs/IntelligentPioneer/17.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/18.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "绝地求生",
+    "description": "带你吃鸡",
+    "imgList":[
+      {
+        "imgUri":"../imgs/IntelligentPioneer/19.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/20.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "游戏人生",
+    "description": "超酷游戏",
+    "imgList":[
+      {
+        "imgUri":"../imgs/IntelligentPioneer/21.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/22.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "智慧数码",
+    "description": "智能潮货 嗨购不停",
+    "imgList":[
+      {
+        "imgUri":"../imgs/IntelligentPioneer/23.png",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/24.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  }
+]
+
