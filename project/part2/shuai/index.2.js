@@ -80,7 +80,7 @@ class slider {
                     this.box.style[this.motion] = `${-1 * this.step * this.content[this.motion == 'left' ? 'offsetWidth' : 'offsetHeight']}px`;
                 }
                 this.flag = true;
-                this.cssBack=true;
+                this.cssBack = true;
             }, false);
             // 开始设置渐隐渐显初始化
         } else if (this.motion == 'opacity') {
@@ -129,15 +129,16 @@ class slider {
             })
             this.focuse();
         } else {
-            console.log('css_back:',this.cssBack)
+            console.log('css_back:', this.cssBack)
             console.log('move_step:', this.step)
-            if (this.cssBack==false) {
-                this.box.style.transitionDuration = `0.001s`;    
+            if (this.cssBack == false) {
                 if (this.step >= this.maxStep) {
                     this.step = 1;
+                    this.box.style.transitionDuration = `0.001s`;
                 }
                 if (this.step <= this.minStep) {
                     this.step = this.contentLength;
+                    this.box.style.transitionDuration = `0.001s`;
                 }
                 this.box.style[this.motion] = `${-1 * this.step * this.content[this.motion == 'left' ? 'offsetWidth' : 'offsetHeight']}px`;
             } else {
@@ -145,7 +146,7 @@ class slider {
                 this.box.style[this.motion] = -1 * this.content[this.motion == 'left' ? 'offsetWidth' : 'offsetHeight'] * this.step + 'px';
             }
             this.focuse();
-            this.cssBack=false;
+            this.cssBack = false;
         }
     }
     button(e) {
