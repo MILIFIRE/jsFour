@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a:hover {
+  cursor: pointer;
+}
+.row {
+  margin-left: -5px;
+  margin-right: -5px;
+  overflow: hidden;
+}
+.row:after,
+.row:before {
+  clear: both;
+}
+.col-10,
+.col-20,
+.col-30,
+.col-33,
+.col-40,
+.col-50,
+.col-60,
+.col-70,
+.col-80,
+.col-90,
+.col-100 {
+  float: left;
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.col-10 {
+  width: 10%;
+}
+.col-20 {
+  width: 20%;
+}
+.col-30 {
+  width: 30%;
+}
+.col-33 {
+  width: 33.3333%;
+}
+.col-40 {
+  width: 40%;
+}
+.col-50 {
+  width: 50%;
+}
+.col-60 {
+  width: 60%;
+}
+.col-70 {
+  width: 70%;
+}
+.col-80 {
+  width: 80%;
+}
+.col-90 {
+  width: 90%;
+}
+.col-100 {
+  width: 100%;
+}
+.p-t-xs {
+  padding-top: 5px;
+}
+.p-r-xs {
+  padding-right: 5px;
+}
+.p-b-xs {
+  padding-bottom: 5px;
+}
+.p-l-xs {
+  padding-left: 5px;
+}
+.p-xs {
+  padding: 5px;
+}
+.p-t-s {
+  padding-top: 10px;
+}
+.p-l-sm {
+  padding-left: 20px;
+}
+.p-r-sm {
+  padding-right: 20px;
+}
+.p-sm {
+  padding: 20px;
+}
+.m-t-xs {
+  margin-top: 5px;
+}
+.m-r-xs {
+  margin-right: 5px;
+}
+.m-b-xs {
+  margin-bottom: 5px;
+}
+.m-l-xs {
+  margin-left: 5px;
+}
+.m-xs {
+  margin: 5px;
+}
+.m-b-s {
+  margin-bottom: 10px;
+}
+.m-s {
+  margin: 10px;
+}
+.m-t-sm {
+  margin-top: 20px;
+}
+.m-b-sm {
+  margin-bottom: 20px;
+}
+.m-sm {
+  margin: 20px;
+}
+.m-b-md {
+  margin-bottom: 30px;
+}
+.m-md {
+  margin: 30px;
+}
+.pos-relative {
+  position: relative;
+}
+.pos-absolute {
+  position: absolute;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-36 {
+  font-size: 36px;
+}
+.font-48 {
+  font-size: 48px;
+}
+.font-72 {
+  font-size: 72px;
+}
+.bg-FFF {
+  background: #fff;
+}
+.text-center {
+  text-align: center;
+}
+.floatL {
+  float: left;
+}
+.floatR {
+  float: right;
+}
+.whole-container {
+  width: 100%;
+}
+.core-container {
+  width: 1190px;
+  margin: auto;
+}
+body {
+  background: #f0f3ef;
+  color: #999;
+}
+.floor_title {
+  position: relative;
+  width: 150px;
+  font-size: 28px;
+  color: #222;
+  text-align: center;
+  margin: 34px auto;
+  padding: 0 50px;
+  overflow: hidden;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.floor_title:before {
+  left: 0px;
+}
+.floor_title:after {
+  right: 0px;
+}
+.floor_title:before,
+.floor_title:after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  display: block;
+  background: #222;
+  top: 19px;
+}
+.floor .box {
+  height: 450px;
+  overflow: hidden;
+}
+.floor .box .box-title {
+  float: left;
+  font-size: 22px;
+  color: #222;
+  padding-bottom: 10px;
+}
+.floor .box .box_arrow {
+  background-position: 0px 0px;
+  float: left;
+  width: 23px;
+  height: 23px;
+  margin: 6px auto auto 5px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAAklEQVR4AewaftIAAAHiSURBVJXBvUuUcQAA4MefclJIGmWDUGr9CU72ZZwEgjYoHIH2MbUUIQTpFHdj2hBK/QFSQtCpSEc1lCIF1trUIhaGgwhd4hAHaoIHYr73nj5PxVJLixICkuhBK5pQhzx+YB6TmMGmCFWidWEIBbzEGJawipM4jQt4ggQGkfOfKnslMIqreIgpbNlrGcv4iqfoxgiu4T4KioJdCUyjCS2YxJZ4W5hECxoxjYSiYNczFNCJvL1qxcujEwU8VxTs6MQV9GHDfq+QFm8DfbiMLtsCAobQj3XRbiOFtHjr6McwQkASBbxT2gqSSCEt3nv8RXtAD8aVt4IkUkiLN47ugPP47GBWkEQKaaXNoTWgEUsObgVJpJAWbQHNAXVYdThbdlSI9hu1AXmccHD1mEUWGdGO40/AT5xxMPWYRRYZpZ3FYsA8LiqvHrPIIiNeG74ETKBXvFOYRRYZ5fViKmAGR9ChtDFkkVFeB47iQ8AmBjCKGtGuI6O8GoxgEJvBjhzmMI5K+60prxLj+IQ3tgW77iGBHGodTi1yqMZdRZUPGhoUbeA1LuExfuG7eBXowQS+4QYKiqrsVcAddGEYj/ACc1hAHnU4hzbcRDX6kfOfKtFyeIt29OAWmnEMa1jEPAbwEZsi/APwnHjX1+uAaQAAAABJRU5ErkJggg==);
+}
+.floor .box .box_dot {
+  float: left;
+  color: #222;
+  font-size: 22px;
+  line-height: 22px;
+  padding-left: 5px;
+}
+.floor .box .box-subtitle {
+  float: left;
+  font-size: 14px;
+  margin: 7px 0 0 10px;
+}
+.floor .box .shop-logo {
+  position: absolute;
+  left: 0;
+  width: 130px;
+  border: 1px solid #ccc;
+}
+.floor .box .shop-logo img {
+  width: 100%;
+}
+.floor .box .shop-name {
+  margin-left: 140px;
+  font-size: 18px;
+  height: 45px;
+  line-height: 45px;
+}
+.floor .half-box {
+  height: 220px;
+  overflow: hidden;
+}
+.floor ul.phoneList {
+  border: solid #ebeaea;
+  border-width: 0 1px 1px 0;
+  width: 100%;
+}
+.floor ul.phoneList li {
+  float: left;
+  border: solid #ebeaea;
+  border-width: 1px 0 0 1px;
+  width: 25%;
+}
+.floor .act-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*&:after {
+      content: '';
+      z-index: 0;
+      display: block;
+      position: absolute;
+      width: 340px;
+      height: 420px;
+      left: 30px;
+      top: 0;
+      background: #f0f3ef;
+    }*/
+}
+.floor .act-inner a {
+  position: relative;
+  z-index: 1;
+  width: 340px;
+  /*height: 420px;*/
+}
+.floor .act-inner a img {
+  width: 100%;
+  /*height: 100%;*/
+}
+.floor .act-inner:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 340px;
+  height: 420px;
+  border: 5px solid #222;
+  top: 20px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.floor .act-first .act-inner a {
+  float: left;
+  margin-left: 30px;
+}
+.floor .act-first .act-inner:before {
+  left: 0px;
+  right: auto;
+}
+.floor .act-last .act-inner a {
+  float: right;
+  margin-right: 30px;
+}
+.floor .act-last .act-inner:before {
+  left: auto;
+  right: 0px;
+}

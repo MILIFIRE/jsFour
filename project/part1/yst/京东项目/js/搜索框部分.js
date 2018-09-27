@@ -18,7 +18,7 @@ function bindHtml() {
    form.innerHTML+=`<input type="text" placeholder="${data[i].src}">`
     }
 }
- //window.setInterval(bindHtml,2000)
+
 
 
 

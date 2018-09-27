@@ -1,0 +1,114 @@
+[
+  {
+    "name": "京东超市",
+    "description": "精选超值好物",
+    "url": "http://www.baidu.com",
+    "imgList":[
+        {
+        "imgUri":"../imgs/departmentStore/1.jpg",
+        "imgHref":"http://www.baidu.com"
+        },
+      {
+        "imgUri":"../imgs/departmentStore/2.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/departmentStore/3.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "魅力装扮",
+    "description": "精致生活",
+    "imgList":[
+      {
+        "imgUri":"../imgs/departmentStore/4.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/departmentStore/5.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/departmentStore/6.png",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/departmentStore/7.png",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/departmentStore/8.png",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "",
+    "description": "",
+    "imgList":[
+      {
+        "imgUri":"../imgs/departmentStore/9.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "",
+    "description": "",
+    "imgList":[
+      {
+        "imgUri":"../imgs/departmentStore/10.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/departmentStore/11.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "畅饮一夏",
+    "description": "来吧干杯",
+    "imgList":[
+      {
+        "imgUri":"../imgs/departmentStore/12.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/departmentStore/13.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "抹茶控",
+    "description": "爱清新口感",
+    "imgList":[
+      {
+        "imgUri":"../imgs/departmentStore/14.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/departmentStore/15.png",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "图书集市",
+    "description": "有读有品",
+    "imgList":[
+      {
+        "imgUri":"../imgs/IntelligentPioneer/23.png",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"../imgs/IntelligentPioneer/24.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  }
+]
+
