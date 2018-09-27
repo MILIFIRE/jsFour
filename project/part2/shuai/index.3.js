@@ -134,7 +134,7 @@ class slider {
             console.log('move_step:', this.step)
             this.box.style.transitionDuration = `${this.speed}s`;
             this.box.style[this.motion] = -1 * this.content[this.motion == 'left' ? 'offsetWidth' : 'offsetHeight'] * this.step + 'px';
-            this.timer = setTimeout(this.stepCheck.bind(this),this.speed*1000+5)
+            this.timer = setTimeout(this.stepCheck.bind(this), this.speed * 1000 + 100)
             this.focuse();
             this.cssBack = false;
         }
@@ -155,7 +155,7 @@ class slider {
         }
     }
     stepCheck() {
-        this.box.style.transitionDuration = `0.001s`;
+        this.box.style.transitionDuration = `0s`;
         if (this.step >= this.maxStep) {
             this.step = 1;
             this.box.style[this.motion] = `${-1 * this.step * this.content[this.motion == 'left' ? 'offsetWidth' : 'offsetHeight']}px`;
@@ -194,10 +194,122 @@ class slider {
         clearInterval(this.auto);
     }
     mouseout() {
-        if (this.auto) this.auto = setInterval(this.automove.bind(this), this.speed * 1000 * 2);
+        if (this.auto) this.auto = setInterval(this.automove.bind(this), this.speed * 2000 + 50);
     }
     automove() {
         this.step++;
         this.move();
     }
+}
+
+
+
+function XMLHttpRequest() {
+}
+XMLHttpRequest.prototype = {
+    constractor: XMLHttpRequest,
+    timeout:function(star,end){
+        if((end-star)>200)return true;
+    },
+    open: function (method, url, ayacn) { //打开链接 设置请求参数
+        this.method = method;
+        this.url = url;
+        this.ayacn = ayacn;
+
+    },
+    send: function (data) { //发送请求 
+        this.star = (new Date).getTime(); //设置发送时间点
+        window.htttp(this.method,this.url,this.ayacn,data); // 发送HTTP请求
+        if (this.ayacn) {  // 如果是异步 加入异步队列
+           this.timer= setInterval(this.onreadystatechang.bind(this), 100)
+        } else {  // 如果为同步 
+            while (this.readyState !== 4) {  // 阻塞代码执行
+                if(this.timeout(this.star,(new Date).getTime())){  // 网络超时   
+                    console.log('同步请求出超时，请检查网络')
+                    break;  // 网络超时 终止阻塞 跳出循环 继续处理 同步队列
+                }
+            }
+            this.onreadystatechang();
+        }
+
+    }
+}
+ function ajax(option={}) {
+        return new Promise(function( success,error){
+                        let {
+            url=null,
+            method='get',
+            async=true,
+            cache=true,
+            data=null,
+            dataType='json',
+            success = new Function(),
+            error = new Function(),
+        }=option;
+        //判断success 是否是一个函数
+        if(typeof success !=="function"){
+            success=new Function();
+        }
+        //如果get请求方式。需要到url地址上做拼接
+        if(Object.prototype.toString.call(data)==='[object Object]'){
+            for (var i = 0; i < data.length; i++) {
+                var str= ``;
+                for (var key in data) {
+                    str += `${key}=${data[key]}&`
+                }
+                str=str.slice(0,str.length-1);
+                //str=str.replace(/&$/g,'');
+                if(method==='get'){
+                    url+='?'+str;
+                }
+            }
+        }
+        //如果cache为false的时候
+        if(cache=== false &&method==='get'){
+            if(url.includes('?')){
+                url+=`&_=${Math.random()}`
+            }else {
+                url+=`?_=${Math.random()}`
+            }
+        }
+        let xhr = new XMLHttpRequest();
+        xhr.open(method,url,async);
+        xhr.onreadystatechange=function () {
+            t
+            if(xhr.readyState===4){
+                if(/^(2|3)\d{2}$/.test(xhr.status)){
+                    var newDate=null;
+                    if(dataType==='json'){
+                        //将json字符串转成json对象
+                        try {
+                            newDate=JSON.parse(xhr.responseText)
+                        }catch (e){
+                            newDate=xhr.responseText;
+                        }
+
+                    }else if(dataType==='xml'){
+                        newDate=xhr.responseXML
+                    }
+                    success(newDate)
+                }else if(/^[45]\d{2}$/.test(xhr.status)){
+                    if(typeof error === 'function'){
+                        error(xhr.statusText)
+                    }
+                }
+            }
+        }
+        console.log(url);
+        if(method==='post'&& data instanceof Object){
+            data=JSON.stringify(data);
+            xhr.send(data);
+            return
+        }
+        xhr.send(data)
+        })
+    }
+
+
+function ajax(){
+
+    return new Promise()
 }
