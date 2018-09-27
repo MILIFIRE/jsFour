@@ -1,0 +1,706 @@
+//公用
+body {
+  margin: 0;
+  background: #f0f3ef;
+}
+.main {
+  width: 1190px;
+  margin: 0 auto;
+}
+@jdred: #eb3436;
+
+
+.rankingAll {
+
+  //rangking小标题pub
+  .rankingPub {
+    float: left;
+    margin-right: 9px;
+  }
+  .titleTopPub {
+    height: 60px;
+    padding: 0 20px;
+    vertical-align: middle;
+  }
+  .titlePub {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 22px;
+    color: #222;
+    line-height: 60px;
+  }
+  .arrowPub {
+    display: inline-block;
+    background: url("../img/ranking/pub/arrow.png") no-repeat center;
+    position: relative;
+    top: 4px;
+    width: 23px;
+    height: 23px;
+    margin-left: 4px;
+  }
+  .textPub {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 14px;
+    color: #999;
+    padding-left: 8px;
+    position: relative;
+    top: -3px;
+  }
+  .opacity0{
+    opacity: 1;  //懒加载用
+  }
+
+  //轮播图pub
+  .slidePub {
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    img{
+      .opacity0
+    }
+  }
+  .swiperPub {
+    position: absolute;
+    margin: 0 auto;
+  }
+  .pagePub {
+    float: left;
+  }
+  .slideSelectedPub {
+    display: block;
+  }
+  .noSlidePub{
+    width: 350px;
+    height: 412px;
+    margin: 0 auto;
+  }
+
+
+
+  //ranking样式
+  //ranking1
+  .ranking1 {
+    .rankingPub;
+    width: 390px;
+    background: #fff;
+    .titleTop {
+      .titleTopPub;
+      .title {
+        .titlePub;
+      }
+      .arrow {
+        .arrowPub;
+      }
+      .text {
+        .textPub;
+      }
+    }
+    //选项卡
+    .tabAll {
+      position: relative;
+      //选项卡
+      .tab {
+        li {
+          cursor: pointer;
+          float: left;
+          background: #f7f7f7;
+          width: 20%;
+          line-height: 42px;
+          height: 42px;
+          color: #757575;
+          font-size: 12px;
+          text-align: center;
+        }
+        li.selected {
+          color: @jdred;
+        }
+      }
+      //slide原位
+    }
+
+    //轮播图
+    .slide {
+      .slidePub;
+      width: 350px;
+      height: 348px;
+        //swiper
+        .swiper {
+          .swiperPub;
+          width: 700px;
+          .page {
+            .pagePub;
+            width: 350px;
+            li {
+              background: #fff;
+              height: 107px;
+              .proImg {
+                float: left;
+                width: 80px;
+                height: 80px;
+                margin-top: 14px;
+                transition: all 0.2s;
+                img {
+                  width: 100%;
+                }
+              }
+              .proImg:hover {
+                opacity: 0.85;
+              }
+              .num {
+                float: left;
+                width: 30px;
+                height: 40px;
+                margin: 36px 0 0 10px;
+                line-height: 40px;
+                font-size: 32px;
+                text-align: center;
+                font-family: 'impact';
+                color: @jdred;
+              }
+              .text {
+                display: block;
+                margin-left: 125px;
+                padding-top: 40px;
+                height: 32px;
+                line-height: 16px;
+                font-size: 12px;
+                overflow: hidden;
+                color: #363636;
+              }
+              .text:hover {
+                color: @jdred;
+              }
+            }
+          }
+        }
+    }
+    .slide.selected {
+      .slideSelectedPub;
+    }
+  }
+
+  //ranking2
+  .ranking2 {
+    .rankingPub;
+    width: 390px;
+    background: #fff;
+    position: relative;
+    .titleTop {
+      .titleTopPub;
+      .title {
+        .titlePub;
+      }
+      .arrow {
+        .arrowPub;
+      }
+      .text {
+        .textPub;
+      }
+    }
+
+    //轮播图
+    .slide {
+      .slidePub;
+      width: 350px;
+      height: 390px;
+        //swiper
+        .swiper {
+          .swiperPub;
+          width: 700px;
+          .page {
+            .pagePub;
+            width: 350px;
+            .bigImg {
+              transition: all 0.2s;
+              width: 350px;
+              height: 128px;
+              img {
+                width: 100%;
+              }
+            }
+            .bigImg:hover {
+              opacity: 0.85;
+            }
+            .smallImg3 {
+              margin: 20px 0;
+              li {
+                float: left;
+                width: 105px;
+                height: 105px;
+                transition: all 0.2s;
+                img {
+                  width: 100%;
+                }
+              }
+              li:nth-of-type(2) {
+                margin: 0 8px;
+              }
+              li:hover{
+                opacity: 0.85;
+              }
+            }
+            .tag {
+              font-size: 18px;
+              color: #222;
+              text-align: center;
+              line-height: 22px;
+              padding-top:18px;
+              margin-bottom: 10px;
+              width:350px;
+              overflow: hidden;/*超出隐藏*/
+              white-space: nowrap;/*强制不换行*/
+              text-overflow: ellipsis;/*以省略号的方式修剪文本*/
+            }
+            .text {
+              font-size: 14px;
+              line-height: 18px;
+              color: #666;
+              height: 36px;
+              overflow: hidden;
+            }
+
+          }
+        }
+
+
+    }
+    .slide.selected {
+      .slideSelectedPub;
+    }
+  }
+
+
+  //ranking3
+  .ranking3 {
+    .rankingPub;
+    margin-right: 0;
+    width: 390px;
+    background: #fff;
+    .titleTop {
+      .titleTopPub;
+      .title {
+        .titlePub;
+      }
+      .arrow {
+        .arrowPub;
+      }
+      .text {
+        .textPub;
+      }
+    }
+
+    //轮播图
+    .slide {
+      .slidePub;
+       height: 390px;
+        width: 350px;
+        //swiper
+        .swiper {
+          .swiperPub;
+          width: 700px;
+          .page {
+            .pagePub;
+            &>li{
+              position: relative;
+              overflow: hidden;
+              border-radius: 6px;
+              width: 100%;
+              height: 118px;
+              background: #f6f6f6;
+              &>a{
+                height: 118px;
+                .dot{
+                  width: 20px;
+                  height: 20px;
+                  border-radius: 50%;
+                  background: #fff;
+                  position: absolute;
+                  right: 60px;
+                }
+                .dot1{
+                  z-index: 1000;
+                  top:-10px;
+                }
+                .dot2{
+                  z-index: 1000;
+                  bottom: -10px;
+                }
+                .n-left{
+                  transition: all 0.2s;
+                  margin-left: 10px;
+                  margin-top: 10px;
+                  float: left;
+                  background: #fff;
+                  width: 80px;
+                  height: 80px;
+                  padding: 10px;
+                  border-radius: 50%;
+                  overflow: hidden;
+                  img{
+                    margin-left: 8px;
+                    margin-top: 8px;
+                    width: 80%;
+                    height: 80%;
+                  }
+                }
+                .n-left:hover{
+                  opacity: 0.85;
+                }
+                .n-mid{
+                  margin-left: 10px;
+                  margin-top: 10px;
+                  float: left;
+                  width: 168px;
+                  .nn-top{
+                    i{
+                      color:@jdred;
+                      font-size: 16px;
+                      font-style:normal;
+                    }
+                    span{
+                      color:@jdred;
+                      font-size: 34px;
+                    }
+                  }
+                  .nn-mid{
+                    color:#b1b3b0;
+                    font-size: 14px;
+                  }
+                  .nn-bot{
+                    margin-top: 10px;
+                    color:#767b77;
+                    font-size: 14px;
+                    width:168px;
+                    overflow: hidden;/*超出隐藏*/
+                    white-space: nowrap;/*强制不换行*/
+                    text-overflow: ellipsis;/*以省略号的方式修剪文本*/
+                  }
+                };
+                .n-right{
+                  color:#333;
+                  margin-top: 10px;
+                  margin-left: 30px;
+                  float: right;
+                  width: 30px;
+                  div{
+                    font-size: 12px;
+                    width: 13px;
+                  }
+                };
+              }
+            }
+            &>li:nth-of-type(2){
+              background: #eeefed;;
+            }
+          }
+        }
+    }
+    .slide.selected {
+      .slideSelectedPub;
+    }
+  }
+
+
+  //ranking4
+  .ranking4 {
+    .rankingPub;
+    margin-top: 24px;
+    width: 390px;
+    background: #fff;
+    position: relative;
+    .titleTop {
+      .titleTopPub;
+      .title {
+        .titlePub;
+      }
+      .arrow {
+        .arrowPub;
+      }
+      .text {
+        .textPub;
+      }
+    }
+
+    //轮播图
+    .slide {
+      .slidePub;
+      height: 412px;
+        width: 350px;
+        //swiper
+        .swiper {
+          .swiperPub;
+          width: 700px;
+          .page {
+            .pagePub;
+            width: 350px;
+            .bigImg {
+              width: 350px;
+              height: 250px;
+              transition: all 0.2s;
+              img {
+                width: 100%;
+              }
+            }
+            .bigImg:hover {
+              opacity: 0.85;
+            }
+            .smallImg3 {
+              margin: 20px 0;
+              li {
+                float: left;
+                width: 105px;
+                height: 105px;
+                transition: all 0.2s;
+                img {
+                  width: 100%;
+                }
+              }
+              li:nth-of-type(2) {
+                margin: 0 8px;
+              }
+              li:hover{
+                opacity: 0.85;
+              }
+            }
+            .tag {
+              font-size: 16px;
+              color: #333;
+              text-align: center;
+              line-height: 56px;
+              font-weight: normal;
+              width:350px;
+              overflow: hidden;/*超出隐藏*/
+              white-space: nowrap;/*强制不换行*/
+              text-overflow: ellipsis;/*以省略号的方式修剪文本*/
+            }
+            .text {
+              font-size: 14px;
+              line-height: 18px;
+              color: #999;
+              height: 36px;
+              overflow: hidden;
+            }
+
+          }
+        }
+    }
+    .slide.selected {
+      .slideSelectedPub;
+    }
+  }
+
+
+  //ranking5
+  .ranking5 {
+    .rankingPub;
+    width: 390px;
+    background: #fff;
+    margin-top: 24px;
+    .titleTop {
+      .titleTopPub;
+      .title {
+        .titlePub;
+      }
+      .arrow {
+        .arrowPub;
+      }
+      .text {
+        .textPub;
+      }
+    }
+
+    .noSlideA{
+      img{
+        .opacity0
+      }
+      .noSlide{
+      .noSlidePub;
+      &>li{
+        transition: all .2s;
+        margin-top: 20px;
+        float: left;
+        width: 48%;
+        img{
+          transition: all .2s;
+          opacity: 1;
+          width: 110px;
+          height: 110px;
+          margin: 0 auto;
+          margin-left: 29px;
+        }
+        h3{
+          transition: all .2s;
+          text-align: center;
+          display: block;
+          font-size: 14px;
+          color: #3e8c96;
+          font-weight: bold;
+          height: 16px;
+          padding: 0 10px;
+          line-height: 16px;
+          margin-top: 20px;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+        p{
+          transition: all .2s;
+          display: block;
+          font-size: 12px;
+          line-height: 14px;
+          padding: 0 8px;
+          margin-top: 6px;
+          color: #666;
+          overflow: hidden;/*超出隐藏*/
+          white-space: nowrap;/*强制不换行*/
+          text-overflow: ellipsis;/*以省略号的方式修剪文本*/
+        }
+      }
+      &>li:hover{
+        h3,p{
+          color:@jdred;
+        }
+      }
+      &>li img:hover{
+        opacity: 0.85;
+      }
+      &>li:nth-of-type(2n+1){
+        margin-right: 2%;
+      }
+      &>li:nth-of-type(1){
+        margin-top: 0;
+      }
+      &>li:nth-of-type(2){
+        margin-top: 0;
+      }
+    }
+    }
+
+
+
+  }
+
+
+  //ranking6
+  .ranking6 {
+    .rankingPub;
+    margin-right: 0;
+    width: 390px;
+    background: #fff;
+    margin-top: 24px;
+    .titleTop {
+      .titleTopPub;
+      .title {
+        .titlePub;
+      }
+      .arrow {
+        .arrowPub;
+      }
+      .text {
+        .textPub;
+      }
+    }
+
+    .noSlide{
+      .noSlidePub;
+      .bigImg {
+        width: 350px;
+        height: 250px;
+        transition: all 0.2s;
+        img {
+          width: 100%;
+        }
+      }
+      .bigImg:hover {
+        opacity: 0.85;
+      }
+      .smallImg3 {
+        margin: 20px 0;
+        li {
+          float: left;
+          width: 105px;
+          height: 105px;
+          transition: all 0.2s;
+          img {
+            width: 100%;
+          }
+        }
+        li:nth-of-type(2) {
+          margin: 0 8px;
+        }
+        li:hover{
+          opacity: 0.85;
+        }
+      }
+    }
+  }
+
+
+
+
+  //左右按钮
+  .rankingBtnLeft, .rankingBtnRight {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 40px;
+    margin-top: -14px;
+    opacity: 0.7;
+    background: url("../img/ranking/pub/pre.png") no-repeat;
+    //display: none;
+    display: block;
+  }
+  .rankingBtnLeft:hover, .rankingBtnRight:hover {
+    opacity: 1;
+  }
+  .rankingBtnLeft {
+    left: 0;
+  }
+  .rankingBtnRight {
+    right: 0;
+    background-position: -40px 0;
+  }
+
+  //轮播图小点css修改
+  /* Common Styles */
+  .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+  }
+  /* Bullets */
+  .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 0 0 #fdd9dd;
+    border-radius: 50%;
+    transition: all .2s;
+    border: 2px solid #b8bdb9;
+    background: none;
+  }
+  button.swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 0 0 #fdd9dd;
+    border-radius: 50%;
+    transition: all .2s;
+    border: 2px solid #b8bdb9;
+    background: none;
+  }
+  .swiper-pagination-bullet-active {
+    border: 2px solid @jdred;
+    background: @jdred;
+    box-shadow: 0 0 0 3px #fdd9dd;
+  }
+//  结束的}不能删
+}
+
+

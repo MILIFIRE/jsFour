@@ -1,0 +1,54 @@
+{
+    "cateIdList": [
+        "794"
+    ],
+    "provinceId": "1",
+    "rankId": "rank3001",
+    "testId": "",
+    "time": "1",
+    "utime": "2018-09-27 19:40:53",
+    "ctime": "2018-09-27 19:40:00",
+    "reqCid": "794",
+    "reqCname": "大 家 电",
+    "resCid": "794",
+    "resCname": "大 家 电",
+    "code": "0",
+    "products": [
+        {
+            "wareId": "967500",
+            "wareName": "TCL 6公斤 全自动波轮洗衣机 一键脱水 10种洗涤程序 内凸式蜂巢水晶内筒（亮灰色） XQB60-21CSP",
+            "imgPath": "jfs/t1/2154/35/5326/33030/5b9f4676Ee707a057/42d993dd2987e4bf.jpg",
+            "venderId": "1000000953"
+        },
+        {
+            "wareId": "7372400",
+            "wareName": "创维 酷开(coocaa) 40K5C 40英寸 全高清 智能WiFi 防蓝光护眼  HDR 丰富影视 人工智能液晶网络电视机",
+            "imgPath": "jfs/t20356/313/2336733716/309410/aa12426/5b5185b2Nec398b64.jpg",
+            "venderId": "1000002812"
+        },
+        {
+            "wareId": "1282288",
+            "wareName": "志高（CHIGO）1.5匹 冷暖 定速 空调挂机 纯铜管（NEW-GD12F1H3）",
+            "imgPath": "jfs/t23005/205/2461523308/74302/1b030e8a/5b8116bdN3bf92474.jpg",
+            "venderId": "1000001412"
+        },
+        {
+            "wareId": "6545435",
+            "wareName": "小天鹅 LittleSwan 8公斤全自动洗衣机 安心童锁 水量随心调节 TB80V20",
+            "imgPath": "jfs/t23107/347/1450308201/119856/1cb15881/5b617564N7a39f112.jpg",
+            "venderId": "1000002505"
+        },
+        {
+            "wareId": "4609660",
+            "wareName": "小米（MI）小米电视4A 65英寸 L65M5-AZ/L65M5-AD 2GB+8GB HDR 4K超高清 人工智能网络液晶平板电视",
+            "imgPath": "jfs/t16915/41/2595769478/575564/1ba1e0a5/5b028530N51eee7d4.jpg",
+            "venderId": "1000004123"
+        },
+        {
+            "wareId": "2833305",
+            "wareName": "海尔（Haier) 滚筒洗衣机全自动 8公斤变频 双喷淋泡沫无残留 防霉 EG8012B39SU1",
+            "imgPath": "jfs/t27880/53/431322295/234540/fa4d60c9/5b90f514N1f2d8b8d.jpg",
+            "venderId": "1000001782"
+        }
+    ]
+}

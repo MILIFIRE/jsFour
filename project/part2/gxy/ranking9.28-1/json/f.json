@@ -1,0 +1,67 @@
+{
+    "msg": "",
+    "code": 0,
+    "data": {
+        "ctn": {
+            "cover": {
+                "url": "\/\/huiguang.jd.com\/",
+                "img": "\/\/m.360buyimg.com\/babel\/jfs\/t24766\/152\/694864697\/36540\/4544a9fb\/5b790be4N32c0383c.jpg",
+                "title": "会逛",
+                "ext_columns": {
+                    "desc": "你想逛的都在这里",
+                    "biclk": "2",
+                    "url": "\/\/huiguang.jd.com\/",
+                    "mcinfo": "00755679-03900540-0700388041-M#0-2-1--61--#1-0-#1-#pc-home",
+                    "text": "会逛"
+                }
+            },
+            "items": [
+                {
+                    "ext_columns": {
+                        "desc": "null",
+                        "biclk": "0",
+                        "url": "\/\/item.jd.com\/6157815.html",
+                        "mcinfo": "02262552-06845942-8801012136-6157815#1-0-2--5--#1-0-#301-3096797#pc-home",
+                        "text": "6157815"
+                    },
+                    "name": "JDX （x） zuny 京东JOY限量款 台湾创意家居礼品 手工皮质书档 节日礼物 生日礼物 皮质摆件 浅咖色",
+                    "img": "\/\/m.360buyimg.com\/babel\/jfs\/t26092\/302\/704312335\/8036\/7be4d63c\/5b790c2aN9fd185a5.jpg",
+                    "skuId": "6157815",
+                    "isHot": false
+                },
+                {
+                    "ext_columns": {
+                        "desc": "null",
+                        "biclk": "0",
+                        "url": "\/\/item.jd.com\/6023182.html",
+                        "mcinfo": "02262552-06845942-8801012137-6023182#1-0-2--5--#1-0-#301-3096797#pc-home",
+                        "text": "6023182"
+                    },
+                    "name": "JDX (x) JONATHAN RISS (x) 妖猫传 京东跨界联名款 仙鹤刺绣 Suka 棒球服 飞行员夹克 修身男女同",
+                    "img": "\/\/m.360buyimg.com\/babel\/jfs\/t24940\/125\/718846076\/16567\/c2046bf5\/5b790c22N2c18c4d9.jpg",
+                    "skuId": "6023182",
+                    "isHot": false
+                },
+                {
+                    "ext_columns": {
+                        "desc": "null",
+                        "biclk": "0",
+                        "url": "\/\/item.jd.com\/5746364.html",
+                        "mcinfo": "02262552-06845942-8801012138-5746364#1-0-2--5--#1-0-#301-3096797#pc-home",
+                        "text": "5746364"
+                    },
+                    "name": "JDX | MOSCHINO京东跨界联名合作款套头长袖卫衣 A 1704 粉红 XS",
+                    "img": "\/\/m.360buyimg.com\/babel\/jfs\/t25912\/338\/702089251\/44145\/39ca361a\/5b790c44N96ad68b7.jpg",
+                    "skuId": "5746364",
+                    "isHot": false
+                }
+            ]
+        },
+        "info": {
+            "url": "\/\/huiguang.jd.com\/",
+            "subTitle": "你想逛的都在这里",
+            "title": "会逛"
+        },
+        "proIds": "02262552"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "cateIdList": [
+        "1342"
+    ],
+    "provinceId": "1",
+    "rankId": "rank3001",
+    "testId": "",
+    "time": "1",
+    "utime": "2018-09-27 20:00:14",
+    "ctime": "2018-09-27 20:00:00",
+    "reqCid": "1342",
+    "reqCname": "男装",
+    "resCid": "1342",
+    "resCname": "男装",
+    "code": "0",
+    "products": [
+        {
+            "wareId": "20757030996",
+            "wareName": "男士棉马甲加厚大码时尚秋冬新品纯色百搭立领可脱卸帽马夹男背心 深蓝色 XXXL",
+            "imgPath": "jfs/t13522/90/1096132019/428895/409f7f71/5a1a2d49Nb4020f40.jpg",
+            "venderId": "83205"
+        },
+        {
+            "wareId": "32369738005",
+            "wareName": "AEMAPE 卫衣男 韩版字母印花圆领卫衣潮流撞色拼接套头外套 个性休闲运动上衣男 D527黑色 L",
+            "imgPath": "jfs/t27754/6/291807298/417864/dd7ec6b9/5b8cf1d4N9f12933e.jpg",
+            "venderId": "77921"
+        },
+        {
+            "wareId": "1603401894",
+            "wareName": "吉普JEEP牛仔裤男士青年商务休闲长裤子男中腰直筒宽松牛仔裤男装2018秋冬厚款新品 A316黑色 34码",
+            "imgPath": "jfs/t1/2114/9/8411/318771/5ba98a6aEeedced0b/a2b6450afa82932c.jpg",
+            "venderId": "70902"
+        },
+        {
+            "wareId": "6809776",
+            "wareName": "威秀 viishow 短裤男 休闲条纹男士潮牌五分裤学生裤子KD1470182 紫色 M",
+            "imgPath": "jfs/t18604/137/1098760578/110412/1683915d/5abc617fNcbe42af5.jpg",
+            "venderId": "1000081963"
+        },
+        {
+            "wareId": "6756125",
+            "wareName": "威秀 viishow 休闲短裤男舒适男士短裤五分裤松紧带绑绳系带裤KD1205172 深藏青色 M",
+            "imgPath": "jfs/t16216/48/2254606065/133823/5acd7521/5aa09b93N0fe0a5ec.jpg",
+            "venderId": "1000081963"
+        },
+        {
+            "wareId": "25541508274",
+            "wareName": "哈吉斯HAZZYS 2018夏季新款T恤衫男时尚简约经典大狗T恤ASTZE08BE27 藏青色NV 180/100A 50",
+            "imgPath": "jfs/t1/4071/16/8215/176216/5ba91c3dEe2682d2d/3ec6bc7cac93f895.jpg",
+            "venderId": "44714"
+        }
+    ]
+}
