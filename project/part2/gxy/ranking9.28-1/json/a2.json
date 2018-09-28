@@ -1,0 +1,54 @@
+{
+    "cateIdList": [
+        "752"
+    ],
+    "provinceId": "1",
+    "rankId": "rank3001",
+    "testId": "",
+    "time": "1",
+    "utime": "2018-09-27 19:30:04",
+    "ctime": "2018-09-27 19:30:00",
+    "reqCid": "752",
+    "reqCname": "厨房小电",
+    "resCid": "752",
+    "resCname": "厨房小电",
+    "code": "0",
+    "products": [
+        {
+            "wareId": "3818500",
+            "wareName": "小熊（Bear）养生壶1.5L迷你玻璃加厚电水壶烧水壶电热水壶 花茶壶冲奶壶煮茶壶黑茶煮茶器多功能YSH-A15W6",
+            "imgPath": "jfs/t24661/9/748151462/140665/22b41d21/5b7a7595Nd3d1df8b.jpg",
+            "venderId": "1000002467"
+        },
+        {
+            "wareId": "8501670",
+            "wareName": "长虹（CHANGHONG） 67度温泉蛋煮蛋器进口材料迷你多功能低温料理早餐机黄小厨联名款 黄色 ZDQ-811A/2",
+            "imgPath": "jfs/t1/1115/11/4222/59743/5b9b755eE1a288eb8/dfff62b2708d608f.jpg",
+            "venderId": "0"
+        },
+        {
+            "wareId": "939691",
+            "wareName": "九阳（Joyoung）绞肉机 多功能料理 搅拌 可制作婴儿辅食 JYS-A800",
+            "imgPath": "jfs/t25315/194/513109908/313894/30e4b1df/5b7286bbN319e7adf.jpg",
+            "venderId": "1000001465"
+        },
+        {
+            "wareId": "2718810",
+            "wareName": "美的（Midea）电水壶热水壶电热水壶304不锈钢1.7L容量 双层防烫烧水壶WHJ1705C",
+            "imgPath": "jfs/t26236/122/265974863/291404/84489602/5b8cd4bdNfe47e792.jpg",
+            "venderId": "1000001281"
+        },
+        {
+            "wareId": "973479",
+            "wareName": "半球（Peskoe）电饭煲6L电饭锅 家用直身电饭锅带蒸笼CFXB60-5M",
+            "imgPath": "jfs/t19825/207/811478361/213301/3cf7c207/5b0bc21bNd27bf1b9.jpg",
+            "venderId": "1000002402"
+        },
+        {
+            "wareId": "1642000",
+            "wareName": "小熊（Bear）养生壶3.5L中药锅煎药壶砂锅全自动电煎药壶 煮药壶中药壶煲药熬药锅 陶瓷分体式JYH-B40Q1",
+            "imgPath": "jfs/t25981/29/749492985/236078/d8b7fc54/5b7a7118N1cb6ba48.jpg",
+            "venderId": "1000002467"
+        }
+    ]
+}

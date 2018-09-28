@@ -1,0 +1,54 @@
+{
+    "cateIdList": [
+        "12342"
+    ],
+    "provinceId": "1",
+    "rankId": "rank3001",
+    "testId": "",
+    "time": "1",
+    "utime": "2018-09-22 21:40:27",
+    "ctime": "2018-09-22 21:40:00",
+    "reqCid": "12342",
+    "reqCname": "运动相机",
+    "resCid": "12342",
+    "resCname": "运动相机",
+    "code": "0",
+    "products": [
+        {
+            "wareId": "1329153",
+            "wareName": "GoPro 运动摄像机配件头部固定头带及QuickClip可调节（适用于HERO4，HERO5，HERO6）",
+            "imgPath": "jfs/t3076/170/4227878735/237720/bac8e44/583bd487N6ba054b6.jpg",
+            "venderId": "1000000925"
+        },
+        {
+            "wareId": "25558362130",
+            "wareName": "GOPRO hero6 新款4K60帧运动相机 高清水下潜水运动摄像机 hero6定制礼盒",
+            "imgPath": "jfs/t1/1598/2/2660/246901/5b97263bE016f13d8/a70390f228446fdc.jpg",
+            "venderId": "666543"
+        },
+        {
+            "wareId": "3822082",
+            "wareName": "GoPro HERO 5 Black 运动摄像机 4K高清 语音控制 防抖防水",
+            "imgPath": "jfs/t4498/90/3548975996/77266/58f6a8f1/58ff1163Nadf70372.jpg",
+            "venderId": "1000000925"
+        },
+        {
+            "wareId": "3190781",
+            "wareName": "索尼（SONY）FDR-X3000R 酷拍运动相机/摄像机监控旅游套装（4K光学防抖 60米水下防水壳 3倍变焦）",
+            "imgPath": "jfs/t16900/244/2674678670/78817/8d244f85/5b054446Nbc8fa069.jpg",
+            "venderId": "1000000921"
+        },
+        {
+            "wareId": "20349940680",
+            "wareName": "Insta360 ONE 7K运动全景相机陀螺仪防抖高清数码摄像机户外摄像头旅游航拍骑行 ONE+自拍杆+蓝牙控制器",
+            "imgPath": "jfs/t12532/156/2097625691/179328/9f707165/5a31fcf5Ncf0e24e4.jpg",
+            "venderId": "593710"
+        },
+        {
+            "wareId": "10227592347",
+            "wareName": "TELESIN Gopro7头带Hero6 5 4配件头戴 小蚁4K山狗",
+            "imgPath": "jfs/t20176/124/142266473/305967/a0a9f8b2/5afe9981N2ab93ee9.jpg",
+            "venderId": "159908"
+        }
+    ]
+}
