@@ -1,0 +1,54 @@
+{
+    "cateIdList": [
+        "653"
+    ],
+    "provinceId": "1",
+    "rankId": "rank3001",
+    "testId": "",
+    "time": "1",
+    "utime": "2018-09-27 19:21:03",
+    "ctime": "2018-09-27 19:20:00",
+    "reqCid": "653",
+    "reqCname": "手机通讯",
+    "resCid": "653",
+    "resCname": "手机通讯",
+    "code": "0",
+    "products": [
+        {
+            "wareId": "5148371",
+            "wareName": "华为 HUAWEI 麦芒 6 全网通 4GB+64GB版 曜石黑 移动联通电信4G手机 双卡双待",
+            "imgPath": "img/ranking/a59dc6704N7c82222c.jpg",
+            "venderId": "1000004259"
+        },
+        {
+            "wareId": "32368401066",
+            "wareName": "【限时6期分期免息】OPPO  R17 拍照游戏手机  屏下指纹 渐变机身 R15/R15梦镜版升级 流光蓝（8G+128G） 超值套装",
+            "imgPath": "img/ranking/a5454f2c6123f23b9.jpg",
+            "venderId": "666614"
+        },
+        {
+            "wareId": "8264403",
+            "wareName": "小米 红米6A AI美颜 3GB+32GB 流沙金 全网通4G手机 双卡双待",
+            "imgPath": "img/ranking/a5b4edfdcN5a7d6faf.jpg",
+            "venderId": "1000004123"
+        },
+        {
+            "wareId": "32944874909",
+            "wareName": "Apple 苹果 iPhone Xs Max 手机 银色 全网通64G版",
+            "imgPath": "img/ranking/a215e4e226d789617.jpg",
+            "venderId": "644697"
+        },
+        {
+            "wareId": "100000287117",
+            "wareName": "Apple iPhone XS Max (A2104) 256GB 金色 移动联通电信4G手机 双卡双待",
+            "imgPath": "img/ranking/a45ab3dd6c35d981b.jpg",
+            "venderId": "1000000127"
+        },
+        {
+            "wareId": "8782991",
+            "wareName": "小米8 全面屏游戏智能手机 8GB+128GB 黑色 全网通4G 双卡双待",
+            "imgPath": "img/ranking/a5b6bb048Nb7bc6c17.jpg",
+            "venderId": "1000004123"
+        }
+    ]
+}
