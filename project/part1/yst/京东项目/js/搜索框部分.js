@@ -10,7 +10,6 @@ function ajax() {
         }
     }
     xhr.send()
-    console.log(data);
 }
 ajax();
 function bindHtml() {
