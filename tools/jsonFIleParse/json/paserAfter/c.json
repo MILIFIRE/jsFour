@@ -1,1 +1,69 @@
-{"msg":"","code":0,"data":{"coupon":{"cover":{"url":"//a.jd.com/","subTitle":"前往领券中心","title":"领券中心"},"list":[{"desc":"限金龙鱼等品牌部分商品【金龙鱼神券日】","imgUrl":"img/ranking/5ab21079Nb7444d01.jpg","value":"100","type":1,"url":"//a.jd.com/?cateId=0","entry":"更多精选好券","limit":"满199元可用"},{"desc":"部分自营手机/配件商品","imgUrl":"img/ranking/7a327e7f9450447f.jpg","value":"50","type":1,"url":"//a.jd.com/?cateId=19","entry":"更多手机数码券","limit":"满980元可用"},{"desc":"金龙鱼等品牌部分商品","imgUrl":"img/ranking/58732d44Ne171be34.jpg","value":"10","type":1,"url":"//a.jd.com/?cateId=15","entry":"更多食品饮料券","limit":"满110元可用"},{"desc":"【自营】四季沐歌部分商品","imgUrl":"img/ranking/5b90e73fNc48e4151.jpg","value":"900","type":1,"url":"//a.jd.com/?cateId=16","entry":"更多家用电器券","limit":"满6000元可用"},{"desc":"部分国际品牌商品","imgUrl":"img/ranking/7bb689615eb603b6.png","value":"300","type":1,"url":"//a.jd.com/?cateId=10","entry":"更多服饰内衣券","limit":"满999元可用"},{"desc":"paratex&三利枕芯毛巾联合券【券后9.9抢纯棉A类毛巾3条】","imgUrl":"img/ranking/3882db04b51ba74e.jpg","value":"20","type":1,"url":"//a.jd.com/?cateId=20","entry":"更多家居家纺券","limit":"满29元可用"}]}}}
+{
+    "msg": "",
+    "code": 0,
+    "data": {
+        "coupon": {
+            "cover": {
+                "url": "//a.jd.com/",
+                "subTitle": "前往领券中心",
+                "title": "领券中心"
+            },
+            "list": [
+                {
+                    "desc": "限金龙鱼等品牌部分商品【金龙鱼神券日】",
+                    "imgUrl": "img/ranking/5ab21079Nb7444d01.jpg",
+                    "value": "100",
+                    "type": 1,
+                    "url": "//a.jd.com/?cateId=0",
+                    "entry": "更多精选好券",
+                    "limit": "满199元可用"
+                },
+                {
+                    "desc": "部分自营手机/配件商品",
+                    "imgUrl": "img/ranking/7a327e7f9450447f.jpg",
+                    "value": "50",
+                    "type": 1,
+                    "url": "//a.jd.com/?cateId=19",
+                    "entry": "更多手机数码券",
+                    "limit": "满980元可用"
+                },
+                {
+                    "desc": "金龙鱼等品牌部分商品",
+                    "imgUrl": "img/ranking/58732d44Ne171be34.jpg",
+                    "value": "10",
+                    "type": 1,
+                    "url": "//a.jd.com/?cateId=15",
+                    "entry": "更多食品饮料券",
+                    "limit": "满110元可用"
+                },
+                {
+                    "desc": "【自营】四季沐歌部分商品",
+                    "imgUrl": "img/ranking/5b90e73fNc48e4151.jpg",
+                    "value": "900",
+                    "type": 1,
+                    "url": "//a.jd.com/?cateId=16",
+                    "entry": "更多家用电器券",
+                    "limit": "满6000元可用"
+                },
+                {
+                    "desc": "部分国际品牌商品",
+                    "imgUrl": "img/ranking/7bb689615eb603b6.png",
+                    "value": "300",
+                    "type": 1,
+                    "url": "//a.jd.com/?cateId=10",
+                    "entry": "更多服饰内衣券",
+                    "limit": "满999元可用"
+                },
+                {
+                    "desc": "paratex&三利枕芯毛巾联合券【券后9.9抢纯棉A类毛巾3条】",
+                    "imgUrl": "img/ranking/3882db04b51ba74e.jpg",
+                    "value": "20",
+                    "type": 1,
+                    "url": "//a.jd.com/?cateId=20",
+                    "entry": "更多家居家纺券",
+                    "limit": "满29元可用"
+                }
+            ]
+        }
+    }
+}

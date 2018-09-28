@@ -1,3 +1,7 @@
+/* 
+CMD 切换到 当前目录
+执行 node index.js
+*/
 //导入 node 文件模块
 var fs = require("fs");
 
@@ -5,7 +9,9 @@ var fs = require("fs");
 function ReplaceUrl(str, path) {
     if (!/(\.jpg|\.png)/.test(str)) return false
     if (path.match('a') !== null) path = path.slice(0,path.length-1)
-    return path + str.match(/[^\/!]{6,}?(png|jpg)/)[0]
+    // return path + str.match(/[^\/!]{6,}?(png|jpg)/)[0]
+    let ary = str.split('/');
+    return path + ary[ary.length-1]
 }
 //递归查找JSON内所有对象和数组的值 通过ReplaceUrl 找到匹配要替换的内容
 function findImgPath(obj, path) {
