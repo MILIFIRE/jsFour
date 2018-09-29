@@ -1,0 +1,54 @@
+{
+    "cateIdList": [
+        "1381"
+    ],
+    "provinceId": "1",
+    "rankId": "rank3001",
+    "testId": "",
+    "time": "1",
+    "utime": "2018-09-27 19:40:04",
+    "ctime": "2018-09-27 19:40:00",
+    "reqCid": "1381",
+    "reqCname": "面部护肤",
+    "resCid": "1381",
+    "resCname": "面部护肤",
+    "code": "0",
+    "products": [
+        {
+            "wareId": "4796411",
+            "wareName": "资生堂珊珂（SENKA）绵润白泥泡沫洁面乳120g（日本进口原洗颜专科洗面奶）",
+            "imgPath": "\/\/m.360buyimg.com\/mobilecms\/jfs/t9109/105/825507500/127795/eedcbbb3/59afa17aN287138a0.jpg",
+            "venderId": "1000003533"
+        },
+        {
+            "wareId": "189574",
+            "wareName": "玉兰油OLAY洗面奶细滑焕肤洁面乳150g（补水保湿 男女通用 深层清洁 新老包装随机发）",
+            "imgPath": "\/\/m.360buyimg.com\/mobilecms\/jfs/t7519/5/4085285291/238568/bab82a29/5a009b56Nd9058c43.jpg",
+            "venderId": "1000002499"
+        },
+        {
+            "wareId": "6101194",
+            "wareName": "雪本诗（Schaebens）玻尿酸补水面膜 2*5ml/片（（玻尿酸面膜补水美白 保湿）德国进口",
+            "imgPath": "\/\/m.360buyimg.com\/mobilecms\/jfs/t18769/56/1059218168/354387/6f3dd747/5abc5bd4Na629dd27.jpg",
+            "venderId": "1000097753"
+        },
+        {
+            "wareId": "6088398",
+            "wareName": "御泥坊 深层补水面膜 14片（玫瑰7+红石榴7）（滋养补水保湿 面膜女男士 护肤品套装）",
+            "imgPath": "\/\/m.360buyimg.com\/mobilecms\/jfs/t16519/97/935260999/256217/ec826578/5a4460e7N1133a8c7.jpg",
+            "venderId": "1000003002"
+        },
+        {
+            "wareId": "1938200",
+            "wareName": "韩国 SNP 面膜贴老虎动物面膜保湿抗皱 10片盒 保湿 抗皱",
+            "imgPath": "\/\/m.360buyimg.com\/mobilecms\/jfs/t4579/20/2548567322/207460/e86743a4/58f09477N97dbfdd7.jpg",
+            "venderId": "1000093422"
+        },
+        {
+            "wareId": "8125592",
+            "wareName": "曼秀雷敦 Mentholatum 水彩润唇膏3g 04#嫣紫玫瑰 柔滑滋润保湿 高显色 亮泽动人唇色 唇釉唇彩女",
+            "imgPath": "\/\/m.360buyimg.com\/mobilecms\/jfs/t1/1914/30/5386/184435/5b9f7588E00e4edc5/18f16f2fa453c185.jpg",
+            "venderId": "1000003180"
+        }
+    ]
+}
