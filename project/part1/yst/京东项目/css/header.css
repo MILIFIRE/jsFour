@@ -1180,7 +1180,7 @@ box-sizing: border-box;
     height: 50px;
     margin-top: -25px;
     background: url("../img/pre.png") no-repeat ;
-    left: 0;
+    left:0;
 }
 #kill-center .swiper-container .rightt{
     position: absolute;;

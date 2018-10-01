@@ -3,22 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！</title>
+    <!--网页logo图-->
     <link rel="shortcut icon" href="//www.jd.com/favicon.ico">
+    <!--清除默认样式-->
     <link rel="stylesheet" href="reset.css" type="text/css">
+    <!--swiper-->
     <link rel="stylesheet" href="../swiper/swiper-3.4.2.min.css">
     <link rel="stylesheet" href="../ClintonCss/sideNav.css">
     <link rel="stylesheet" href="header.css" type="text/css">
+    <!--字体图-->
     <link rel="stylesheet" href="//at.alicdn.com/t/font_850460_3yj8cicjy5m.css">
-    <script>
-        less = {
-            env:'development', // 开发环境
-            poll:1000 //在监视模式，查看代码的间隔时间
-        }
-    </script>
-    <script src="../ClintonJs/less-2.5.3.min.js"></script>
-    <script>
-        less.wait(); // 启动监视模式
-    </script>
 </head>
 <body>
 <!--最顶部广告-->
@@ -4075,68 +4069,7 @@
     </div>
 </div>
 </body>
-<script src="../ClintonJs/sideNav.js"></script>
-<!--<script src="../js/搜索框部分.js"></script>-->
-<script src="../js/地址定位.js"></script>
 <script src="../swiper/swiper-3.4.2.min.js"></script>
-<!--所有轮播图-->
-<script>
-    //大轮播图
-    var mySwiper = new Swiper ('#swiper1', {
-        autoplay: 2000,
-        speed:1000,
-        direction: 'horizontal',
-        loop: true,
-        // 如果需要分页器
-        pagination: '.swiper-pagination',
-
-        // 如果需要前进后退按钮
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        effect : 'fade',
-        fade: {
-            crossFade: true,
-        },
-        pagination : '.swiper-pagination',
-        paginationClickable :true,
-        simulateTouch : false,
-    });
-    var swiper1 = document.getElementById('swiper1');
-    swiper1.onmouseenter = function () {
-        mySwiper.stopAutoplay();
-    };
-    swiper1.onmouseleave = function () {
-        mySwiper.startAutoplay();
-    }
-    //秒杀右轮播图
-    var mySwiper2 = new Swiper ('#swiper2', {
-        direction: 'horizontal',
-        loop: true,
-        // 如果需要分页器
-        pagination: '.swiper-pagination',
-        autoplay: 2000,
-        speed:1000,
-        paginationClickable :true,
-        autoplayDisableOnInteraction:false,
-        simulateTouch : false,
-    })
-//秒杀中轮播图
-    var mySwiper3 = new Swiper ('#swiper3', {
-        direction: 'horizontal',
-        loop: true,
-        // 如果需要前进后退按钮
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        simulateTouch : false,
-        speed:1000,
-    })
-
-</script>
-<script src="../js/秒杀倒计时.js"></script>
 <script src="../js/fengzhuang.js"></script>
 <script>fengzhuang.init()</script>
-<script src="../js/logoDog.js"></script>
-<script src="../js/轮播图中.js"></script>
-
-
 </html>
