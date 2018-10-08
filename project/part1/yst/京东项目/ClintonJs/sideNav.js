@@ -40,4 +40,3 @@ side.onmouseleave = function () {
     }
 };
 
-
