@@ -32,27 +32,56 @@ var fengzhuang=(
             let hour=document.getElementsByClassName('time')[0],
                 assign=document.getElementsByClassName('assign')[0],
                 sec=document.getElementsByClassName('sec')[0],
-                timer=null;
-            (function () {
-                time=new Date('2018-10-05 00:00:00')-new Date();
-                day=Math.floor(time/(1000*60*60*24));
-                hours=Math.floor(time/(1000*60*60));
-                minute=Math.floor(time/(1000*60));
-                seconds=Math.floor(time/1000);
-                hour.innerHTML=`${hours}`
-                assign.innerHTML=`${minute-hours*60}`
-                sec.innerHTML=`${seconds-minute*60}`
-            })();
-            timer = setInterval(function(){
-                time=new Date('2018-10-05 00:00:00')-new Date();
-                day=Math.floor(time/(1000*60*60*24));
-                hours=Math.floor(time/(1000*60*60));
-                minute=Math.floor(time/(1000*60));
-                seconds=Math.floor(time/1000);
-                hour.innerHTML=`${hours}`
-                assign.innerHTML=`${minute-hours*60}`
-                sec.innerHTML=`${seconds-minute*60}`
-            },1000);
+                autoTime=null,
+                _serverTime=null;
+            let queryTime=function queryTime() {
+                if (_serverTime) {
+                    _serverTime=new Date(_serverTime.getTime()+1000);
+                    return _serverTime
+                }
+                return new Promise(resolve=>{
+                    let xhr=new XMLHttpRequest(),
+                        serverTime=null;
+                    xhr.open('HEAD','logoDog.js',true);
+                    xhr.onreadystatechange=()=>{
+                        if (xhr.readyState === 2) {
+                            serverTime=new Date(xhr.getResponseHeader('date'));
+                            _serverTime=serverTime;
+                            resolve(serverTime)
+                        }
+                    };
+                    xhr.send(null);
+                })
+            };
+            let computedTime=function computedTime() {
+                let promise=queryTime();
+                promise instanceof Promise ? promise.then(fn):fn(promise);
+                function fn(serverTime) {
+                    let nowTime=serverTime,
+                        tarTime=new Date('2018/10/15 00:00:00'),
+                        diffTime=tarTime-nowTime;
+                    if (diffTime >= 0) {
+                        let hours=Math.floor(diffTime/(1000*60*60));
+                        diffTime=diffTime-hours*3600000;
+                        let minutes=Math.floor(diffTime/(1000*60));
+                        diffTime=diffTime-minutes*60000;
+                        let seconds=Math.floor(diffTime/1000);
+                        hours<10?hours='0'+hours:null;
+                        minutes<10?minutes='0'+minutes:null;
+                        seconds<10?seconds='0'+seconds:null;
+                        hour.innerHTML=`${hours}`;
+                       assign.innerHTML=`${minutes}`;
+                       sec.innerHTML=`${seconds}`;
+                        return
+                    }
+                    hour.innerHTML='- -';
+                    assign.innerHTML='- -';
+                    sec.innerHTML='- -';
+                    clearInterval(autoTime)
+                }
+            };
+            computedTime();
+            autoTime=setInterval(computedTime,1000);
         }
         //地址定位
         function add() {
@@ -123,7 +152,7 @@ var fengzhuang=(
                 })
                 wdt.forEach((x,i)=>{
                     x.innerHTML = data.slice(i*4,(i+1)*4).join('');
-                    console.log('data.slice:',data.slice(i*4,(i+1)*4))
+
                 });
             }
             bindHtm();
@@ -259,6 +288,7 @@ var fengzhuang=(
     }
 
     )();
+fengzhuang.init()
 
 
 
