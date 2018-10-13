@@ -1,0 +1,60 @@
+#box {
+  width: 190px;
+}
+#box .JD_ser {
+  position: relative;
+  height: 190px;
+  overflow: hidden;
+}
+#box .JD_ser:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 160px;
+  left: 15px;
+  height: 1px;
+  background: #ebeaea;
+  z-index: 1;
+}
+#box .JD_ser:after .JD_ser_ent {
+  overflow: hidden;
+  padding: 18px 11px 11px;
+  background: #fff;
+}
+#box .JD_ser:after .JD_ser_ent .JD_ser_ent_ul {
+  height: 165px;
+}
+#box .JD_ser:after .JD_ser_ent .JD_ser_ent_ul .service_lis {
+  overflow: visible;
+}
+#box .JD_ser:after .JD_ser_ent .JD_ser_ent_ul .JD_ser_ent_ul_lis {
+  position: relative;
+  float: left;
+  width: 42px;
+  height: 55px;
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+#box .JD_ser:after .JD_ser_ent .JD_ser_ent_ul .JD_ser_ent_ul_lis .JD_ser_ent_ul_lis_lk {
+  position: relative;
+  display: block;
+  padding-top: 6px;
+  transition: all 0.2s linear;
+  color: #666;
+}
+#box .JD_ser:after .JD_ser_ent .JD_ser_ent_ul .JD_ser_ent_ul_lis .JD_ser_ent_ul_lis_lk .JD_ser_ent_ul_lis_lk_icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 4px auto 0;
+}
+#box .JD_ser:after .JD_ser_ent .JD_ser_ent_ul .JD_ser_ent_ul_lis .JD_ser_ent_ul_lis_lk .JD_ser_ent_ul_lis_lk_con {
+  display: block;
+  height: 25px;
+  line-height: 25px;
+  border-bottom: 2px solid #fff;
+  color: #bea68d;
+  transition: color 0.15s ease;
+}
