@@ -1,0 +1,163 @@
+[
+  {
+    "name": "运动户外",
+    "description": "玩所未玩",
+    "url": "http://www.baidu.com",
+    "imgList":[
+        {
+        "imgUri":"imgs/fashionista/1.jpg",
+        "imgHref":"http://www.baidu.com"
+        },
+      {
+        "imgUri":"imgs/fashionista/2.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"imgs/fashionista/3.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "魅力装扮",
+    "description": "精致生活",
+    "imgList":[
+      {
+        "imgUri":"imgs/fashionista/4.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"imgs/fashionista/5.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"imgs/fashionista/6.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "",
+    "description": "",
+    "imgList":[
+      {
+        "imgUri":"imgs/fashionista/7.png",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "",
+    "description": "",
+    "imgList":[
+      {
+        "imgUri":"imgs/fashionista/8.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "name": "原宿少年",
+    "description": "简单自然",
+    "imgList":[
+      {
+        "imgUri":"imgs/fashionista/9.jpg",
+        "imgHref":"http://www.baidu.com"
+      },
+      {
+        "imgUri":"imgs/fashionista/10.jpg",
+        "imgHref":"http://www.baidu.com"
+      }
+    ]
+  },{
+  "name": "足下型靴",
+  "description": "男神必备型靴",
+  "imgList":[
+    {
+      "imgUri":"imgs/fashionista/11.jpg",
+      "imgHref":"http://www.baidu.com"
+    },
+    {
+      "imgUri":"imgs/fashionista/12.jpg",
+      "imgHref":"http://www.baidu.com"
+    }
+  ]
+},{
+  "name": "COACH京东自营店",
+  "description": "",
+  "imgList":[
+    {
+      "imgUri":"imgs/fashionista/13.jpg",
+      "imgHref":"http://www.baidu.com"
+    },
+    {
+      "imgUri":"imgs/fashionista/14.jpg",
+      "imgHref":"http://www.baidu.com"
+    },
+    {
+      "imgUri":"imgs/fashionista/15.jpg",
+      "imgHref":"http://www.baidu.com"
+    },
+    {
+      "imgUri":"imgs/fashionista/16.jpg",
+      "imgHref":"http://www.baidu.com"
+    },
+    {
+      "imgUri":"imgs/fashionista/17.jpg",
+      "imgHref":"http://www.baidu.com"
+    }
+  ]
+},{
+  "name": "京东服饰",
+  "description": "尽享时尚生活",
+  "imgList":[
+    {
+      "imgUri":"imgs/fashionista/18.jpg",
+      "imgHref":"http://www.baidu.com"
+    },
+    {
+      "imgUri":"imgs/fashionista/19.jpg",
+      "imgHref":"http://www.baidu.com"
+    },
+    {
+      "imgUri":"imgs/fashionista/20.jpg",
+      "imgHref":"http://www.baidu.com"
+    },
+    {
+      "imgUri":"imgs/fashionista/21.jpg",
+      "imgHref":"http://www.baidu.com"
+    }
+  ]
+},{
+  "name": "我型我塑",
+  "description": "时尚有我 品质衣橱",
+  "imgList":[
+    {
+      "imgUri":"imgs/fashionista/22.jpg",
+      "imgHref":"http://www.baidu.com"
+    },
+    {
+      "imgUri":"imgs/fashionista/23.jpg",
+      "imgHref":"http://www.baidu.com"
+    },
+    {
+      "imgUri":"imgs/fashionista/24.jpg",
+      "imgHref":"http://www.baidu.com"
+    }
+  ]
+},{
+  "name": "",
+  "description": "",
+  "imgList":[
+    {
+      "imgUri":"imgs/fashionista/25.jpg",
+      "imgHref":"http://www.baidu.com"
+    },
+    {
+      "imgUri":"imgs/fashionista/26.jpg",
+      "imgHref":"http://www.baidu.com"
+    }
+  ]
+}
+]
+
